@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace StringBuilder
+namespace _7_StringBuilder
 {
     class Program
     {

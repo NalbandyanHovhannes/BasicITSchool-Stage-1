@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace BasicITSchool
+namespace _1_Lesson
 {
     class Program
     {
