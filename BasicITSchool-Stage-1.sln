@@ -25,6 +25,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Struct", "Struct\Struct.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConstructorProperties", "ConstructorProperties\ConstructorProperties.csproj", "{59B8A74B-010E-4341-B563-712953F2CF1B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1-Lesson", "1-Lesson\1-Lesson.csproj", "{18A769B5-57BF-41B1-98A3-6B9D650C793E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{59B8A74B-010E-4341-B563-712953F2CF1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59B8A74B-010E-4341-B563-712953F2CF1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59B8A74B-010E-4341-B563-712953F2CF1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18A769B5-57BF-41B1-98A3-6B9D650C793E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18A769B5-57BF-41B1-98A3-6B9D650C793E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18A769B5-57BF-41B1-98A3-6B9D650C793E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18A769B5-57BF-41B1-98A3-6B9D650C793E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
