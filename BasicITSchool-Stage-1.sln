@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1-Lesson", "BasicITSchool\1-Lesson.csproj", "{55620BFB-ED59-427E-88D7-6EF9F1958E66}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2-DataTypes", "2-DataTypes\2-DataTypes.csproj", "{BA27D3C3-E1C4-4E57-AE0E-AA4BA1DD536A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3-Operations", "3-Operations\3-Operations.csproj", "{AE37331E-DB65-49A1-954E-6B9BE1200447}"
@@ -15,19 +13,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5-Arrays", "5-Arrays\5-Arra
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6-MultidimensionalArrays", "6-MultidimensionalArrays\6-MultidimensionalArrays.csproj", "{11053DD3-B988-4955-B459-0EC0899FF7FC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7-StringBuilder", "StringBuilder\7-StringBuilder.csproj", "{46E20544-D2EA-4D2A-ACA6-FEED4E5314D6}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "8-Methods", "8-Methods\8-Methods.csproj", "{C5F2CA6F-BBBA-4D0E-971B-E8958C055B23}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9-Recursion", "9-Recursion\9-Recursion.csproj", "{6E7F4B57-7CB3-4AD0-BAC0-107BBC29CF00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "9-Recursion", "9-Recursion\9-Recursion.csproj", "{6E7F4B57-7CB3-4AD0-BAC0-107BBC29CF00}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enums", "10-Algoritm\Enums.csproj", "{1BBA9638-74C0-41DB-A6BB-CD836AD4D1A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enums", "10-Algoritm\Enums.csproj", "{1BBA9638-74C0-41DB-A6BB-CD836AD4D1A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes", "Classes\Classes.csproj", "{BE1A4530-D824-4AD6-A4A1-6FDCC4C0EA96}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Classes", "Classes\Classes.csproj", "{BE1A4530-D824-4AD6-A4A1-6FDCC4C0EA96}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Struct", "Struct\Struct.csproj", "{07762BA4-7FBB-4792-BB7C-7EF6225109B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Struct", "Struct\Struct.csproj", "{07762BA4-7FBB-4792-BB7C-7EF6225109B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstructorProperties", "ConstructorProperties\ConstructorProperties.csproj", "{59B8A74B-010E-4341-B563-712953F2CF1B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConstructorProperties", "ConstructorProperties\ConstructorProperties.csproj", "{59B8A74B-010E-4341-B563-712953F2CF1B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +31,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{55620BFB-ED59-427E-88D7-6EF9F1958E66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{55620BFB-ED59-427E-88D7-6EF9F1958E66}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{55620BFB-ED59-427E-88D7-6EF9F1958E66}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{55620BFB-ED59-427E-88D7-6EF9F1958E66}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BA27D3C3-E1C4-4E57-AE0E-AA4BA1DD536A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BA27D3C3-E1C4-4E57-AE0E-AA4BA1DD536A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA27D3C3-E1C4-4E57-AE0E-AA4BA1DD536A}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -59,10 +51,6 @@ Global
 		{11053DD3-B988-4955-B459-0EC0899FF7FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11053DD3-B988-4955-B459-0EC0899FF7FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11053DD3-B988-4955-B459-0EC0899FF7FC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{46E20544-D2EA-4D2A-ACA6-FEED4E5314D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{46E20544-D2EA-4D2A-ACA6-FEED4E5314D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{46E20544-D2EA-4D2A-ACA6-FEED4E5314D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{46E20544-D2EA-4D2A-ACA6-FEED4E5314D6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C5F2CA6F-BBBA-4D0E-971B-E8958C055B23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C5F2CA6F-BBBA-4D0E-971B-E8958C055B23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5F2CA6F-BBBA-4D0E-971B-E8958C055B23}.Release|Any CPU.ActiveCfg = Release|Any CPU
