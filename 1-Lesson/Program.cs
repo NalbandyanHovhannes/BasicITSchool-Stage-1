@@ -7,6 +7,37 @@ namespace _1_Lesson
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            Console.Read();
+            Console.ReadKey();
+            Console.Write(true);
+            //Console.Out(8);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         }
     }
 }

@@ -4,6 +4,7 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
     <RootNamespace>_1_Lesson</RootNamespace>
+    <StartupObject>_1_Lesson.Program</StartupObject>
   </PropertyGroup>
 
 </Project>
