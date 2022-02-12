@@ -25,7 +25,6 @@ namespace _1_Lesson
                 Console.WriteLine("Thanks for press Enter");
             }
             
-
             Console.WriteLine("Input A=");
             Console.Read();
             Console.ReadLine();
