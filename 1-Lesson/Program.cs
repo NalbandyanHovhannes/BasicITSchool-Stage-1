@@ -20,6 +20,12 @@ namespace _1_Lesson
             int x = Console.Read();
             Console.WriteLine(x);
 
+            if (Console.ReadKey().Key == ConsoleKey.Enter)
+            {
+                Console.WriteLine("Thanks for press Enter");
+            }
+            
+
             Console.WriteLine("Input A=");
             Console.Read();
             Console.ReadLine();
