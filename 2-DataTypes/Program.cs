@@ -55,9 +55,31 @@ namespace _2_DataTypes
             Console.WriteLine(Convert.ToInt32(myDouble));  // convert double to int
             Console.WriteLine(Convert.ToString(myBool));   // convert bool to string
 
+            string s;
+            object ii = null;
+            s = ii.ToString();
+            //returns a null reference exception for s.
+
+            string sss;
+            object o = null;
+            sss = Convert.ToString(o);
+            //returns an empty string for s and does not throw an exception.
+
             Console.WriteLine("Enter your age:");
             string age = Console.ReadLine();
             Console.WriteLine("Your age is: " + age);
+
+
+            int num;
+            object oo= null;
+            num = Convert.ToInt32(oo);
+
+
+            int numm;
+            object ooo = null;
+            //num = int.Parse(ooo);
+
+
 
 
             //Anonymus Types
