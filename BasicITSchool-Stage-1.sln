@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31424.327
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32126.317
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2-DataTypes", "2-DataTypes\2-DataTypes.csproj", "{BA27D3C3-E1C4-4E57-AE0E-AA4BA1DD536A}"
 EndProject
@@ -25,9 +25,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Struct", "Struct\Struct.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConstructorProperties", "ConstructorProperties\ConstructorProperties.csproj", "{59B8A74B-010E-4341-B563-712953F2CF1B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1-Lesson", "1-Lesson\1-Lesson.csproj", "{18A769B5-57BF-41B1-98A3-6B9D650C793E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1-Lesson", "1-Lesson\1-Lesson.csproj", "{18A769B5-57BF-41B1-98A3-6B9D650C793E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7-StringBuilder", "7-StringBuilder\7-StringBuilder.csproj", "{0851E8DC-E4B7-4C52-AD3C-991D68BAFC4F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7-StringBuilder", "7-StringBuilder\7-StringBuilder.csproj", "{0851E8DC-E4B7-4C52-AD3C-991D68BAFC4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1-Lesson-Hamlet", "1-Lesson-Hamlet\1-Lesson-Hamlet.csproj", "{27863CA5-B63C-4E29-8BBD-BECF1AC80354}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{0851E8DC-E4B7-4C52-AD3C-991D68BAFC4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0851E8DC-E4B7-4C52-AD3C-991D68BAFC4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0851E8DC-E4B7-4C52-AD3C-991D68BAFC4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27863CA5-B63C-4E29-8BBD-BECF1AC80354}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27863CA5-B63C-4E29-8BBD-BECF1AC80354}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27863CA5-B63C-4E29-8BBD-BECF1AC80354}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27863CA5-B63C-4E29-8BBD-BECF1AC80354}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
