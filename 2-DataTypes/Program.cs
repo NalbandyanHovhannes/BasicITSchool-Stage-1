@@ -7,8 +7,8 @@ namespace _2_DataTypes
         static void Main(string[] args)
         {
             bool a = true;                //Default is false   8-bit logical true/false value
-
-            byte b = 0;                   //8 bit 0-255
+       
+            byte b = 255;                   //8 bit 0-255
             sbyte i = 7;                  //8-bit unsigned integer
 
             char c = 'v';                 //16-bit single Unicode character
@@ -100,6 +100,16 @@ namespace _2_DataTypes
             //Nullable Type
             int? kyy = null;
             double? kt = null;
+
+            //Implicit Casting
+            int myIntt = 9;
+            double myDoublee = myInt;
+            // Explicit Casting
+            double myDoubleee = 9.78;
+            int myIntyy = (int)myDouble;
+            int myIntyy = 10;
+
+
 
 
         }
