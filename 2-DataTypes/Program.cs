@@ -8,25 +8,35 @@ namespace _2_DataTypes
         {
             bool a = true;                //Default is false   8-bit logical true/false value
        
-            byte b = 255;                   //8 bit 0-255
+            byte b = 255;                 //8 bit 0-255
             sbyte i = 7;                  //8-bit unsigned integer
+            int aa = b + 1;
+            byte x = (byte)(aa);
 
-            char c = 'v';                 //16-bit single Unicode character
+            char c = 'v';                 //16-bit single --Unicode character 2bit
+            char u = 'i';                 //
+            char add = (char)(c + u);     //
+
+            int value = c + u;            //
 
             short sh = 2;                 //16-bit signed integer
             ushort ssh = 2;               //16-bit unsigned integer
+            //short to short =int
 
             int g = 5;                    //32-bit signed integer
             uint k = 6;                   //32-bit unsigned integer
 
-            float f = 6.7f;               //32-bit Single-precision floating point type  suffix f
+            float f = 6.78f;              //32-bit Single-precision floating point type  suffix f
+            //A.3 by default double
+            double db = 8.9d;             //64-bit 
 
-            long h = 785;                 //64-bit unsigned integer  suffix ul
+            long h = 785;                 //64-bit unsigned integer  suffix l
             ulong l = 789625212;          //64-bit unsigned integer  suffix ul
 
-            decimal d = 6.3m;             //128-bit decimal type for financial and monetary calculations suffix m
+            decimal d = 6.3m;             //128-bit decimal type for financial and monetary calculations suffix m money
           
-            
+            //imutable  string dont changed
+            //mutable changed value types
 
             Console.WriteLine("Reference Types");
             string str = "String is reference type";
@@ -97,17 +107,17 @@ namespace _2_DataTypes
             dynamic MyDynamicVar = 100;
             Console.WriteLine("Value: {0}, Type: {1}", MyDynamicVar, MyDynamicVar.GetType());
 
-            //Nullable Type
+            //Nullable Type 
             int? kyy = null;
             double? kt = null;
 
-            //Implicit Casting
+            //Implicit Casting automate
             int myIntt = 9;
             double myDoublee = myInt;
             // Explicit Casting
             double myDoubleee = 9.78;
             int myIntyy = (int)myDouble;
-            int myIntyy = 10;
+            int myIntyyy = 10;
 
 
 
