@@ -112,6 +112,69 @@ namespace _3_Operations
 
 
 
+            //-------------------------------3--------------------------------------
+            //string firstName = "John";
+            //const string lastName = "Smith";
+            //const byte age = 52;
+            //const string gender = "male";
+
+            ////bad practice 
+            //string badText = firstName + '\n' + lastName + "\t" + age + " " + gender;
+
+            ////good practice
+            //string goodText = $"firstName : {firstName} \nlastName : {lastName} \nage : {age} \ngender : {gender}";
+            //firstName = "Alex";
+
+            //Console.WriteLine(goodText);
+            //Console.WriteLine(firstName);
+
+            ////var x = 5;
+            ////x = "hello"; //error
+
+            ////dynamic a = 45;
+            ////a = "asc";
+
+            //int b = 4;
+            //if (b <= 15)
+            //{
+
+            //}
+
+
+            //------------------------------4-------------------------------
+
+            //const string firstName = "Robert";
+            ////firstName += "h";
+            //string lastName = "Kocharyan";
+            //string middleName = "Vova";
+            //string fullNameConcat = firstName + middleName + lastName;//concatenation //bad practice
+            //string fullNameFormat = string.Format("{0} {1} {2}", firstName, middleName, lastName);
+            //string fullName = $"{firstName} {middleName} {lastName}";//interpolation 
+
+            //-----------Bit Operations------------------5--------------------------------
+
+            Console.WriteLine(3 & 4);
+            Console.WriteLine(3 | 4);
+            Console.WriteLine(3 ^ 4);
+            Console.WriteLine(~4);
+            Console.WriteLine(4 >> 2);
+            Console.WriteLine(4 << 2);
+
+
+
+            //-----------------------------------------------------------
+            //=
+            int x = 5;
+
+            int t = x % 3;//modulus //1
+            x %= 2;//x=x%2
+
+
+            //+=, -=, *=, /=
+            x += 3;//x=x+3
+            x *= 3;//x=x*3
+            x /= 3;//x=x/3
+            x -= 3;//x=x-3
         }
     }
 }
