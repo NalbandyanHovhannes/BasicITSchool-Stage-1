@@ -26,7 +26,7 @@ namespace _4_Loops
             string result = (time < 18) ? "Good day." : "Good evening.";
             Console.WriteLine(result);
 
-
+            //---------------------------------------------------------------------------
             //Switch Case
 
             int day = 4;
@@ -56,6 +56,7 @@ namespace _4_Loops
             }
             // Outputs "Thursday" (day 4)
 
+            //---------------------------------------------------------------------------------
             //Switch case with break operator
 
             int today = 4;
@@ -73,7 +74,7 @@ namespace _4_Loops
             }
             // Outputs "Looking forward to the Weekend."
 
-
+            //-------------------------------------------------------------------
             //DO WHile and While do
             int i = 0;
             while (i < 5)
@@ -91,6 +92,8 @@ namespace _4_Loops
             }
             while (t < 5);
 
+
+            //----------------------------------------------------------------------------------
             //For Loop
             for (int j = 0; j < 5; j++)
             {
@@ -102,6 +105,7 @@ namespace _4_Loops
             {
                 Console.WriteLine(k);
             }
+
 
             string[] cars = { "Volvo", "BMW", "Ford", "Mazda" };
             foreach (string item in cars)

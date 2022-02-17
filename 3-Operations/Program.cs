@@ -40,16 +40,16 @@ namespace _3_Operations
 
 
             //-----------------------------------------------------------------------------------------
-            //2. Local Global
-            int k = 4;
-            {
-                //int k = 4;
-                int xx = 5;
-            }
+            ////2. Local Global
+            //int k = 4;
+            //{
+            //    //int k = 4;
+            //    int xx = 5;
+            //}
 
-            {
-                int xxx = 6;
-            }
+            //{
+            //    int xxx = 6;
+            //}
 
             //-----------------------------------------------------------------------------------------
             //3. Math
@@ -112,14 +112,14 @@ namespace _3_Operations
 
 
             //9. Var
+           // BIt
+            Console.WriteLine(3 & 4);
+            Console.WriteLine(3 | 4);
+            Console.WriteLine(3 ^ 4);
+            Console.WriteLine(~4);
+            Console.WriteLine(4 >> 2);
+            Console.WriteLine(4 << 2);
 
-            //part 1
-            //  int number = Convert.ToInt32(Console.ReadLine());//2341
-            // Console.WriteLine("---------");
-            byte bt = 8;
-            byte kh = 9;
-            byte rr = 8 + 9;
-            float T = 52555555555555555.4001f;
 
             //string s1 = "ssss";
             //string s2 = "iiii";
@@ -132,28 +132,14 @@ namespace _3_Operations
             //int numNumber1 = newNumber2 / 10;   //2
             //int lastNumber1 = numNumber1 % 10;  //2
 
-           // int result = lastNumber1 + lastNumber2 + lastNumber3 + lastNumber4;
-           // string text = "Result=" + result;
+            // int result = lastNumber1 + lastNumber2 + lastNumber3 + lastNumber4;
+            // string text = "Result=" + result;
             //Console.WriteLine(text);
 
             //---------------------------------------
-            int sum1 = 100 + 50;        // 150 (100 + 50)
-            int sum2 = sum1 + 250;      // 400 (150 + 250)
-            int sum3 = sum2 + sum2;     // 800 (400 + 400)
-           
-            if (sum3 > 500)
-            {
-                Console.WriteLine("sum3 is biggest and equal {0}", sum3);
-            }
-            else 
-            { Console.WriteLine("sum3 is small and equal  {1}", 500); }
+
 
             //CTRL KD
-
-
-       
-          
-
 
 
 
@@ -173,19 +159,13 @@ namespace _3_Operations
             //Console.WriteLine(goodText);
             //Console.WriteLine(firstName);
 
-            ////var x = 5;
-            ////x = "hello"; //error
+            //var xxxx = 5;
+            //xxxx = "hello"; //error
 
             ////dynamic a = 45;
             ////a = "asc";
 
-            //int b = 4;
-            //if (b <= 15)
-            //{
-
-            //}
-
-
+          
             //------------------------------4-------------------------------
 
             //const string firstName = "Robert";
@@ -196,20 +176,8 @@ namespace _3_Operations
             //string fullNameFormat = string.Format("{0} {1} {2}", firstName, middleName, lastName);
             //string fullName = $"{firstName} {middleName} {lastName}";//interpolation 
 
-            //-----------Bit Operations------------------5--------------------------------
+           
 
-            Console.WriteLine(3 & 4);
-            Console.WriteLine(3 | 4);
-            Console.WriteLine(3 ^ 4);
-            Console.WriteLine(~4);
-            Console.WriteLine(4 >> 2);
-            Console.WriteLine(4 << 2);
-
-
-
-            //-----------------------------------------------------------
-            //=
-         
         }
     }
 }
