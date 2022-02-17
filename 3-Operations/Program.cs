@@ -1,12 +1,23 @@
-﻿using System;
+﻿
 
 namespace _3_Operations
 {
-    class Program
+   public class Program
     {
         static void Main(string[] args)
         {
             //1. ++,-- inc,dec
+
+            int x = 0;
+            System.Console.WriteLine( x++ );
+            System.Console.WriteLine( x-- );
+            System.Console.WriteLine( ++x);
+            System.Console.WriteLine(--x);
+            x++;
+            x--;
+            --x;
+            ++x;
+
             //2. Local Global
             //3. Math
             //4. Comparison
@@ -17,9 +28,16 @@ namespace _3_Operations
             //9. Var
 
             //part 1
-            int number = Convert.ToInt32(Console.ReadLine());//2341
-            Console.WriteLine("---------");
+          //  int number = Convert.ToInt32(Console.ReadLine());//2341
+           // Console.WriteLine("---------");
+            byte bt = 8;
+            byte kh = 9;
+            byte rr = 8 + 9;
+            float T = 52555555555555555.4001f;
 
+            string s1 = "ssss";
+            string s2 = "iiii";
+            string strr = s1.Remove(); - s2;
             int lastNumber4 = number % 10;      //1
             int newNumber3 = number / 10;       //234
             int lastNumber3 = newNumber3 % 10;  //4
@@ -93,11 +111,11 @@ namespace _3_Operations
             int k = 4;
             {
                 //int k = 4;
-                int x = 5;
+                int xx = 5;
             }
 
             {
-                int x = 6;
+                int xxx = 6;
             }
 
             //1.++,--
