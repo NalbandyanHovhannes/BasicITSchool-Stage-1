@@ -112,13 +112,13 @@ namespace _3_Operations
 
 
             //9. Var
-           // BIt
-            Console.WriteLine(3 & 4);
-            Console.WriteLine(3 | 4);
-            Console.WriteLine(3 ^ 4);
-            Console.WriteLine(~4);
-            Console.WriteLine(4 >> 2);
-            Console.WriteLine(4 << 2);
+           // BIt operator
+            Console.WriteLine(3 & 4);//000
+            Console.WriteLine(3 | 4);//111
+            Console.WriteLine(3 ^ 4);//XOR 111
+           // Console.WriteLine(~4);   //
+            Console.WriteLine(4 >> 2);//1 shift eight
+            Console.WriteLine(4 << 2);//16  shift left
 
 
             //string s1 = "ssss";
