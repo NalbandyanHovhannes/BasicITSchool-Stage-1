@@ -121,6 +121,7 @@ namespace _3_Operations
             Console.WriteLine(4 << 2);//16  shift left
 
 
+
             //string s1 = "ssss";
             //string s2 = "iiii";
             //string strr = s1.Remove(); - s2;
