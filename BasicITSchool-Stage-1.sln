@@ -29,7 +29,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1-Lesson", "1-Lesson\1-Less
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7-StringBuilder", "7-StringBuilder\7-StringBuilder.csproj", "{0851E8DC-E4B7-4C52-AD3C-991D68BAFC4F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork", "HomeWork\HomeWork.csproj", "{FF4A5601-ACB6-42F9-AA66-D7730C7FB01F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork", "HomeWork\HomeWork.csproj", "{FF4A5601-ACB6-42F9-AA66-D7730C7FB01F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
