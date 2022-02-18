@@ -144,8 +144,6 @@ namespace _3_Operations
 
             ////CTRL KD
 
-
-
             ////-------------------------------3--------------------------------------
             ////string firstName = "John";
             ////const string lastName = "Smith";
@@ -168,7 +166,6 @@ namespace _3_Operations
             //dynamic a = 45;
             //a = "asc";
 
-
             //------------------------------4-------------------------------
 
             //const string firstName = "Robert";
@@ -190,8 +187,7 @@ namespace _3_Operations
                      if (i1<=i2)// Kiraki>0
             {
                 Console.WriteLine("equal");
-            }
-            
+            }            
 
             Console.WriteLine("100000");  ///tpelua?
 

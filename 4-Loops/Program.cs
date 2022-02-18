@@ -30,6 +30,7 @@ namespace _4_Loops
             //Switch Case
 
             int day = 4;
+
             switch (day)
             {
                 case 1:
@@ -104,6 +105,15 @@ namespace _4_Loops
             for (int k = 0; k <= 10; k = k + 2)
             {
                 Console.WriteLine(k);
+            }
+
+            for (int r = 0; r <= 10;)
+            {
+                Console.WriteLine(r);
+            }
+            for (; ; )
+            {
+                Console.WriteLine("??");
             }
 
 
