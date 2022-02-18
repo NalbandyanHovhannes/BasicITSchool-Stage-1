@@ -1,4 +1,6 @@
-﻿using System;
+﻿
+
+using System;
 
 namespace HomeWork
 {
@@ -20,15 +22,24 @@ namespace HomeWork
             //int result = lastNumber1 + lastNumber2 + lastNumber3 + lastNumber4;
             //string text = "Result=" + result;
             //Console.WriteLine(text);
-
+            //var t=9;
             string str = "kaddkadkf";
-            var y=str.Substring(1);
+            var divStr = str.Substring(1);
             //Console.WriteLine(y);
-            bool csse =y.Contains('d');
-
+           // bool csse = y.Contains('d');
+            string stry;
+            String strr;
             double d1 = 6.15d;
             double d2 = 4.85d;
-          
+
+            bool t;
+            if (5 > 6)
+            {
+                Console.WriteLine(t);
+
+            }
+            else Console.WriteLine(  t = true); 
+
         }
     }
 }

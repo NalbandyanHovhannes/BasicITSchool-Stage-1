@@ -2,129 +2,131 @@
 
 namespace _3_Operations
 {
-   public class Program
+    public class Program
     {
         static void Main(string[] args)
         {
 
-            //-----------------------------------------------------------------------------------------
-            //1. ++,-- inc,dec
-            int x = 0;
-            System.Console.WriteLine( x++ );
-            System.Console.WriteLine( x-- );
-            System.Console.WriteLine( ++x);
-            System.Console.WriteLine(--x);
-            x++;
-            x--;
-            --x;
-            ++x;
+            //// //-----------------------------------------------------------------------------------------
+            //// //1. ++,-- inc,dec
+            //// int x = 0;
+            //// Console.WriteLine( x++ );
+            //// Console.WriteLine( x-- );
+            //// Console.WriteLine( ++x);
+            //// Console.WriteLine(--x);
+            //// x++;
+            //// x--;
+            //// --x;
+            //// ++x;
 
-            int numbers = 5;
-            Console.WriteLine(--numbers);//number=number-1;  cw(number)
-            Console.WriteLine(numbers--);//cw(number);       number=number-1;
-            Console.WriteLine(numbers);//3
-            Console.ReadKey();
-            numbers = numbers + 1;
-
-
-            int y = 5;
-
-            int t = y % 3;//modulus //1
-            y %= 2;//x=x%2
-
-            //+=, -=, *=, /=
-            y += 3;//x=x+3
-            y *= 3;//x=x*3
-            y /= 3;//x=x/3
-            y -= 3;//x=x-3
+            //// int numbers = 5;
+            //// Console.WriteLine(--numbers);//number=number-1;  cw(number)
+            //// Console.WriteLine(numbers--);//cw(number);       number=number-1;
+            //// Console.WriteLine(numbers);//3
+            //// Console.ReadKey();
+            //// numbers = numbers + 1;
 
 
-            //-----------------------------------------------------------------------------------------
-            ////2. Local Global
-            //int k = 4;
-            //{
-            //    //int k = 4;
-            //    int xx = 5;
-            //}
+            //// int y = 5;
 
-            //{
-            //    int xxx = 6;
-            //}
+            ////// int t = y % 3;//modulus //1
+            //// y %= 2;//x=x%2
 
-            //-----------------------------------------------------------------------------------------
-            //3. Math
-
-            Math.Max(5, 10);
-            Math.Min(5, 10);
-            var yy = Math.Sqrt(64);
-            Math.Abs(-4.7);
-            Math.Round(9.99);
-
-            double pi = Math.PI;
-            double pow = Math.Floor(1.53468464);
-            Console.WriteLine(pow);
-            Console.ReadKey();
-
-            //-----------------------------------------------------------------------------------------
-            //4. Comparison
-            int n1 = 26;
-            int n2 = 26;
-            bool b = n1 != n2;
-            Console.WriteLine(b);
-            Console.ReadKey();
-
-            //-----------------------------------------------------------------------------------------
-            //5. Checket
-            byte by = 255;
-
-            checked
-            {
-                unchecked
-                {
-                    by += 1;
-                }
-            }
-            Console.WriteLine(by);
-            Console.ReadKey();
+            //// //+=, -=, *=, /=
+            //// y += 3;//x=x+3
+            //// y *= 3;//x=x*3
+            //// y /= 3;//x=x/3
+            //// y -= 3;//x=x-3
 
 
+            //// //-----------------------------------------------------------------------------------------
+            //// ////2. Local Global
+            //// //int k = 4;
+            //// //{
+            //// //    //int k = 4;
+            //// //    int xx = 5;
+            //// //}
 
-            //-----------------------------------------------------------------------------------------
-            //6. Concotenation
-            string firstName = "Robert";
-            string lastName = "Kocharyan";
-            string whiteSpace = " ";
-            string n = "\n";
-            string name = firstName + n + lastName + "\n" + "azatutyun naxagahiun"; //Concotenation
-            Console.WriteLine(name);
-            Console.ReadKey();
+            //// //{
+            //// //    int xxx = 6;
+            //// //}
+
+            //// //-----------------------------------------------------------------------------------------
+            //// //3. Math
+
+            //// Math.Max(5, 10);
+            //// Math.Min(5, 10);
+            //// var yy = Math.Sqrt(64);
+            //// Math.Abs(-4.7);
+            //// Math.Round(9.99);
+
+            //// double pi = Math.PI;
+            //// double pow = Math.Floor(1.53468464);
+            //// Console.WriteLine(pow);
+            //// Console.ReadKey();
+
+            //// //-----------------------------------------------------------------------------------------
+            //// //4. Comparison
+            //// int n1 = 26;
+            //// int n2 = 26;
+            //// bool b = n1 != n2;
+            //// Console.WriteLine(b);
+
+            //// var tttt = Math.Pow(3, 3);
+            //// Console.ReadKey();
+
+            //// //-----------------------------------------------------------------------------------------
+            //// //5. Checket
+            //// byte by = 255;
+
+            ////// checked
+            ////// {
+            //////     unchecked
+            //////     {
+            //////         by += 1;
+            //////     }
+            ////// }
+            ////// Console.WriteLine(by);
+            ////// Console.ReadKey();
 
 
 
-            //-----------------------------------------------------------------------------------------
-            //7. String Format
-            Console.WriteLine("Barev es {0} em {1} tarekan", "Hovo", 30);
-            Console.ReadKey();
-
-
-            //8. Sizeof
-
-
-
-            //9. Var
-           // BIt operator
-            Console.WriteLine(3 & 4);//000
-            Console.WriteLine(3 | 4);//111
-            Console.WriteLine(3 ^ 4);//XOR 111
-           // Console.WriteLine(~4);   //
-            Console.WriteLine(4 >> 2);//1 shift eight
-            Console.WriteLine(4 << 2);//16  shift left
+            ////// //-----------------------------------------------------------------------------------------
+            ////// //6. Concotenation
+            ////string firstName = "Robert";
+            ////// string lastName = "Kocharyan";
+            ////// string whiteSpace = " ";
+            ////// string n = "\n";
+            ////// string name = firstName + n + lastName + "\n" + "azatutyun naxagahiun"; //Concotenation
+            ////// Console.WriteLine(name);
+            ////// Console.ReadKey();
 
 
 
+            //// //-----------------------------------------------------------------------------------------
+            //// //7. String Format
+            //// Console.WriteLine($"Barev es {firstName} em {30} tarekan ");
+            //// Console.ReadKey();
+
+
+            //// //8. Sizeof
+
+
+
+            //// //9. Var
+            ////// BIt operator
+            //// Console.WriteLine(3 & 4);//000
+            //// Console.WriteLine(3 | 4);//111
+            //// Console.WriteLine(3 ^ 4);//XOR 111
+            ////// Console.WriteLine(~4);   //
+            //// Console.WriteLine(4 >> 2);//1 shift eight
+            //// Console.WriteLine(4 << 2);//16  shift left
+
+
+            //int number = 4321;
             //string s1 = "ssss";
             //string s2 = "iiii";
-            //string strr = s1.Remove(); - s2;
+
             //int lastNumber4 = number % 10;      //1
             //int newNumber3 = number / 10;       //234
             //int lastNumber3 = newNumber3 % 10;  //4
@@ -133,40 +135,40 @@ namespace _3_Operations
             //int numNumber1 = newNumber2 / 10;   //2
             //int lastNumber1 = numNumber1 % 10;  //2
 
-            // int result = lastNumber1 + lastNumber2 + lastNumber3 + lastNumber4;
-            // string text = "Result=" + result;
+            //int result = lastNumber1 + lastNumber2 + lastNumber3 + lastNumber4;
+            //string text = "Result=" + result;
             //Console.WriteLine(text);
 
-            //---------------------------------------
+            ////---------------------------------------
 
 
-            //CTRL KD
+            ////CTRL KD
 
 
 
-            //-------------------------------3--------------------------------------
-            //string firstName = "John";
-            //const string lastName = "Smith";
-            //const byte age = 52;
-            //const string gender = "male";
+            ////-------------------------------3--------------------------------------
+            ////string firstName = "John";
+            ////const string lastName = "Smith";
+            ////const byte age = 52;
+            ////const string gender = "male";
 
-            ////bad practice 
-            //string badText = firstName + '\n' + lastName + "\t" + age + " " + gender;
+            //////bad practice 
+            ////string badText = firstName + '\n' + lastName + "\t" + age + " " + gender;
 
-            ////good practice
-            //string goodText = $"firstName : {firstName} \nlastName : {lastName} \nage : {age} \ngender : {gender}";
-            //firstName = "Alex";
+            //////good practice
+            ////string goodText = $"firstName : {firstName} \nlastName : {lastName} \nage : {age} \ngender : {gender}";
+            ////firstName = "Alex";
 
-            //Console.WriteLine(goodText);
-            //Console.WriteLine(firstName);
+            ////Console.WriteLine(goodText);
+            ////Console.WriteLine(firstName);
 
-            //var xxxx = 5;
-            //xxxx = "hello"; //error
+            //int xxxx = 5;
+            ////xxxx = "hello"; //error
 
-            ////dynamic a = 45;
-            ////a = "asc";
+            //dynamic a = 45;
+            //a = "asc";
 
-          
+
             //------------------------------4-------------------------------
 
             //const string firstName = "Robert";
@@ -176,8 +178,29 @@ namespace _3_Operations
             //string fullNameConcat = firstName + middleName + lastName;//concatenation //bad practice
             //string fullNameFormat = string.Format("{0} {1} {2}", firstName, middleName, lastName);
             //string fullName = $"{firstName} {middleName} {lastName}";//interpolation 
+            int i1 = 9;
+            int i2 = 10;
 
-           
+
+            if (i1 > i2)
+            {
+                Console.WriteLine("true");
+            }
+            else
+                     if (i1<=i2)// Kiraki>0
+            {
+                Console.WriteLine("equal");
+            }
+            
+
+            Console.WriteLine("100000");  ///tpelua?
+
+            if (true)
+            {
+
+            }
+
+
 
         }
     }
