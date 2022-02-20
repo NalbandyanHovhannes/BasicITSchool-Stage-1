@@ -121,6 +121,15 @@ namespace _4_Loops
                 Console.WriteLine("??");
             }
 
+            for (int c = 0; c < 10; c++)
+            {
+                if (c == 4)
+                {
+                    continue;
+                }
+                Console.WriteLine(c);
+            }
+
 
             string[] cars = { "Volvo", "BMW", "Ford", "Mazda" };
             foreach (string item in cars)
