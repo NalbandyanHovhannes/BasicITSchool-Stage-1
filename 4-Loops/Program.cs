@@ -10,6 +10,7 @@ namespace _4_Loops
             int a = 8;
             int b = 12;
             int max;
+
             if (a>b)
             {
                 max = a;
@@ -20,11 +21,12 @@ namespace _4_Loops
             }
             Console.WriteLine("max="+max);
 
-
+             max = (a > b) ? max = a : max = b;
             //You can simply write:
             int time = 20;
             string result = (time < 18) ? "Good day." : "Good evening.";
             Console.WriteLine(result);
+
 
             //---------------------------------------------------------------------------
             //Switch Case
@@ -74,7 +76,7 @@ namespace _4_Loops
                     break;
             }
             // Outputs "Looking forward to the Weekend."
-
+            //continue
             //-------------------------------------------------------------------
             //DO WHile and While do
             int i = 0;
@@ -90,6 +92,7 @@ namespace _4_Loops
             {
                 Console.WriteLine(t);
                 t++;
+                //t = 0;
             }
             while (t < 5);
 
