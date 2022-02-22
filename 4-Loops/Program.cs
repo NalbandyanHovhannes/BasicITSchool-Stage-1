@@ -168,6 +168,19 @@ namespace _4_Loops
                 Console.WriteLine();
             }
 
+            double result = 0;
+            for (int i = 100; i < 1000; i++)
+            {
+                result = Math.Sqrt(i * 16);
+                if (result % 1 == 0)
+                {
+                    Console.WriteLine(result);
+                }
+            }
+
+
+
+
         }
     }
     
