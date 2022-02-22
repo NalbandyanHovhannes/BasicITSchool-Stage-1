@@ -8,6 +8,10 @@ namespace _5_Arrays
         {
             //Array Declare methods
             string[] car;
+            int[] carint;
+            char[] charArray;
+            long[] longArray;
+
             string[] cars = { "Volvo", "BMW", "Ford", "Mazda" };
             Console.WriteLine(cars[0]);
             Console.WriteLine(cars.Length);
@@ -23,6 +27,7 @@ namespace _5_Arrays
             {
                 Console.WriteLine(i);
             }
+
             //sort
             string[] carss = { "Volvo", "BMW", "Ford", "Mazda" };
             Array.Sort(carss);
@@ -92,7 +97,14 @@ namespace _5_Arrays
             // jaggedArray[0] = new int[4] { 1, 2, 3, 4 };
 
 
+           
 
+              int[][] jagArray = { new int[] { 10, 20, 30 }, new int[] { 11, 22 } };
         }
     }
+
+
 }
+
+
+
