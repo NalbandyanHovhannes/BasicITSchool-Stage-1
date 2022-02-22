@@ -4,25 +4,25 @@ namespace _6_MultidimensionalArrays
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            int[,] a = new int[3, 4] {
-             {0, 1, 2, 3} ,   /*  initializers for row indexed by 0 */
+            //int[,] a = new int[3, 4] {
+            // {0, 1, 2, 3} ,   /*  initializers for row indexed by 0 */
 
-             {4, 5, 6, 7} ,   /*  initializers for row indexed by 1 */
-             {8, 9, 10, 11}   /*  initializers for row indexed by 2 */
-                                        };
+            // {4, 5, 6, 7} ,   /*  initializers for row indexed by 1 */
+            // {8, 9, 10, 11}   /*  initializers for row indexed by 2 */
+            //                            };
 
-            int[,,,] arr4d1 = new int[1, 1, 2, 2]{
-                {
-                    { { 1, 2}, { 3, 4} }
-                }
-            };
+            //int[,,,] arr4d1 = new int[1, 1, 2, 2]{
+            //    {
+            //        { { 1, 2}, { 3, 4} }
+            //    }
+            //};
 
-            Console.WriteLine( arr4d1[0, 0, 0, 0]);  // returns 1
-            Console.WriteLine(arr4d1[0, 0, 0, 1]); // returns 2
-            Console.WriteLine(arr4d1[0, 0, 1, 0]); // returns 3
-            Console.WriteLine(arr4d1[0, 0, 1, 1]); // returns 4
+            //Console.WriteLine(arr4d1[0, 0, 0, 0]);  // returns 1
+            //Console.WriteLine(arr4d1[0, 0, 0, 1]); // returns 2
+            //Console.WriteLine(arr4d1[0, 0, 1, 0]); // returns 3
+            //Console.WriteLine(arr4d1[0, 0, 1, 1]); // returns 4
 
 
 
