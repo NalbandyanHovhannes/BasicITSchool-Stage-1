@@ -25,7 +25,7 @@ namespace _6_MultidimensionalArrays
             Console.WriteLine(arr4d1[0, 0, 1, 1]); // returns 4
 
 
-           // Jagged Array
+            // Jagged Array
             int[][] jArray1 = new int[2][]; // can include two single-dimensional arrays 
             int[][,] jArray2 = new int[3][,]; // can include three two-dimensional arrays 
 
@@ -53,6 +53,37 @@ namespace _6_MultidimensionalArrays
             Console.WriteLine(intJaggedArray[0][1][1]); // 5
 
             Console.WriteLine(intJaggedArray[1][0][2]); // 9
+
+
+            //---------------Jagged Array declare method------------
+            //Declaring and initializing jagged array
+            int[][] jaggedArray = new int[5][];
+            jaggedArray[0] = new int[3];
+            jaggedArray[1] = new int[5];
+            jaggedArray[2] = new int[2];
+            jaggedArray[3] = new int[8];
+            jaggedArray[4] = new int[10];
+            jaggedArray[0] = new int[] { 3, 5, 7, };
+            jaggedArray[1] = new int[] { 1, 0, 2, 4, 6 };
+            jaggedArray[2] = new int[] { 1, 6 };
+            jaggedArray[3] = new int[] { 1, 0, 2, 4, 6, 45, 67, 78 };
+            jaggedArray[4] = new int[] { 1, 0, 2, 4, 6, 34, 54, 67, 87, 78 };
+            //You can also initialize the array upon declaration like this:
+            int[][] jaggedArray2 = new int[][]
+            {
+new int[] { 3, 5, 7, },
+new int[] { 1, 0, 2, 4, 6 },
+new int[] { 1, 6 },
+new int[] { 1, 0, 2, 4, 6, 45, 67, 78 }
+            };
+            //You can use the following shorthand form:
+            int[][] jaggedArray3 =
+            {
+new int[] { 3, 5, 7, },
+new int[] { 1, 0, 2, 4, 6 },
+new int[] {1, 2, 3, 4, 5, 6, 7, 8},
+new int[] {4, 5, 6, 7, 8}
+};
         }
     }
 }

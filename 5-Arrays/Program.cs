@@ -144,11 +144,19 @@ namespace _5_Arrays
             // Set the values of the first array in the jagged array structure.
             // jaggedArray[0] = new int[4] { 1, 2, 3, 4 };
 
-    
 
-              int[][] jagArray = { new int[] { 10, 20, 30 }, new int[] { 11, 22 } };
 
-           
+            int[][] jagArray = { new int[] { 10, 20, 30 }, new int[] { 11, 22 } };
+
+            int[][] jagged_arr ={
+                                   new int[] {1, 2, 3, 4},
+                                   new int[] {11, 34, 67},
+                                   new int[] {89, 23},
+                                   new int[] {0, 45, 78, 53, 99}
+};
+
+
+
         }
     }
 
