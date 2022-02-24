@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace ForTesting
 {
@@ -19,6 +20,8 @@ namespace ForTesting
                 min = (array[i] < min) ? array[i] : min;
             }
             Console.WriteLine(min);
+            int ttt = Array.IndexOf(array,8);
+            int maxValue = array.Max();
         }
     }
 }
