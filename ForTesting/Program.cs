@@ -7,16 +7,16 @@ namespace ForTesting
         static void Main(string[] args)
         {
             Console.WriteLine("please entre count of array...");
-            int n = int.Parse(Console.ReadLine()); int i;
-            int[] array = new int[n]; int min = array[0];
-            for (i = 0; i < n; i++)
+            int n = int.Parse(Console.ReadLine());             
+            
+            int[] array = new int[n];
+            int min = 0;
+            for (int i = 1; i < n; i++)
             {
                 Console.WriteLine("Entre numbers of array ...");
                 array[i] = int.Parse(Console.ReadLine());
-                if (array[i] < min)
-                {
-                    min = array[i];
-                }
+          
+                min = (array[i] < min) ? array[i] : min;
             }
             Console.WriteLine(min);
         }
