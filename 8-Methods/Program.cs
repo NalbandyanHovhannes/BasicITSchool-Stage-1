@@ -6,6 +6,8 @@ namespace _8_Methods
     {
          void Main(string[] args)
         {
+            
+       
             //A method is a block of code which only runs when it is called.
             //You can pass data, known as parameters, into a method.
             //Why use methods? To reuse code: define the code once, and use it many times.           
@@ -27,8 +29,14 @@ namespace _8_Methods
             // Anja is 31
 
 
-            //Operator overload
-          
+            //Default parameter setted
+
+
+            static void MyMethod(string country = "Norway")
+            {
+                Console.WriteLine(country);
+            }
+
 
         }
         public void MyMethods(string fname, int age)
