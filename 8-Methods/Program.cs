@@ -4,10 +4,15 @@ namespace _8_Methods
 {
     class Program
     {
-         void Main(string[] args)
+        static void Main(string[] args)
         {
 
-           
+            int values;
+            values = Sum(7,9);
+
+            values = Sum(8, 9, 89);
+
+
             //A method is a block of code which only runs when it is called.
             //You can pass data, known as parameters, into a method.
             //Why use methods? To reuse code: define the code once, and use it many times.           
@@ -15,6 +20,9 @@ namespace _8_Methods
             //access level such as public or private, optional modifiers such as abstract
             //or sealed, the return value, the name of the method, and any method parameters.
             //These parts together are the signature of the method.
+
+
+
 
 
             MyMethod();
@@ -37,19 +45,32 @@ namespace _8_Methods
                 Console.WriteLine(country);
             }
 
-
         }
-        public void MyMethods(string fname, int age)
+
+
+        public static int Sum(int a,int b)
+        {
+            int sum = a + b;
+            return sum;
+        
+        }
+        public static int Sum(int a, int b, int c)
+        {
+
+            return a * b * c;
+        }
+
+        public static void MyMethods(string fname, int age)
         {
             Console.WriteLine(fname + " is " + age);
         }        
        
-        static void MyMethod()
+        static void MyMethods(int t,string tt)
         {
             Console.WriteLine("I just got executed!");
         }
 
-        public int Count(int t)
+        public static int Count(int t)
         {
             int c = 0;
             for (int i = 0; i < t; i++)
