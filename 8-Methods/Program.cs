@@ -8,7 +8,7 @@ namespace _8_Methods
         {
 
             int values;
-            values = Sum(7,9);
+            values = Sum(7, 9);
 
             values = Sum(8, 9, 89);
 
@@ -46,85 +46,90 @@ namespace _8_Methods
             }
 
         }
-
-
-        public static int Sum(int a,int b)
-        {
-            int sum = a + b;
-            return sum;
-        
-        }
-        public static int Sum(int a, int b, int c)
+    
+         public static int UUU()
         {
 
-            return a * b * c;
+            return 7;
         }
 
-        public static void MyMethods(string fname, int age)
-        {
-            Console.WriteLine(fname + " is " + age);
-        }        
-       
-        static void MyMethods(int t,string tt)
-        {
-            Console.WriteLine("I just got executed!");
-        }
-
-        public static int Count(int t)
-        {
-            int c = 0;
-            for (int i = 0; i < t; i++)
-            {
-                int mod = i % 2;
-                if (mod == 0)
-                {
-                    c++;
-                }
-            }
-
-            return t;
-
-        }
-
-        //Method overloading system
-
-        //static int PlusMethodInt(int x, int y)
-        //{
-        //    return x + y;
-        //}
-
-        //static double PlusMethodDouble(double x, double y)
-        //{
-        //    return x + y;
-        //}
-
-        //static void Main(string[] args)
-        //{
-        //    int myNum1 = PlusMethodInt(8, 5);
-        //    double myNum2 = PlusMethodDouble(4.3, 6.26);
-        //    Console.WriteLine("Int: " + myNum1);
-        //    Console.WriteLine("Double: " + myNum2);
-        //}
-
-        //
-        //static int PlusMethod(int x, int y)
-        //{
-        //    return x + y;
-        //}
-
-        //static double PlusMethod(double x, double y)
-        //{
-        //    return x + y;
-        //}
-
-        //static void Main(string[] args)
-        //{
-        //    int myNum1 = PlusMethod(8, 5);
-        //    double myNum2 = PlusMethod(4.3, 6.26);
-        //    Console.WriteLine("Int: " + myNum1);
-        //    Console.WriteLine("Double: " + myNum2);
-        //}
-
+    public static int Sum(int a, int b)
+    {
+        int sum = a + b;
+        return sum;
 
     }
+    public static int Sum(int a, int b, int c)
+    {
+
+        return a * b * c;
+    }
+
+    public static void MyMethods(string fname, int age)
+    {
+        Console.WriteLine(fname + " is " + age);
+    }
+
+    static void MyMethods(int t, string tt)
+    {
+        Console.WriteLine("I just got executed!");
+    }
+
+    public static int Count(int t)
+    {
+        int c = 0;
+        for (int i = 0; i < t; i++)
+        {
+            int mod = i % 2;
+            if (mod == 0)
+            {
+                c++;
+            }
+        }
+
+        return t;
+
+    }
+
+    //Method overloading system
+
+    //static int PlusMethodInt(int x, int y)
+    //{
+    //    return x + y;
+    //}
+
+    //static double PlusMethodDouble(double x, double y)
+    //{
+    //    return x + y;
+    //}
+
+    //static void Main(string[] args)
+    //{
+    //    int myNum1 = PlusMethodInt(8, 5);
+    //    double myNum2 = PlusMethodDouble(4.3, 6.26);
+    //    Console.WriteLine("Int: " + myNum1);
+    //    Console.WriteLine("Double: " + myNum2);
+    //}
+
+    //
+    //static int PlusMethod(int x, int y)
+    //{
+    //    return x + y;
+    //}
+
+    //static double PlusMethod(double x, double y)
+    //{
+    //    return x + y;
+    //}
+
+    //static void Main(string[] args)
+    //{
+    //    int myNum1 = PlusMethod(8, 5);
+    //    double myNum2 = PlusMethod(4.3, 6.26);
+    //    Console.WriteLine("Int: " + myNum1);
+    //    Console.WriteLine("Double: " + myNum2);
+    //}
+
+
+}
 }

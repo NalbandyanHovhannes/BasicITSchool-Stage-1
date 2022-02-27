@@ -8,7 +8,7 @@ namespace HomeWork
     {
         static void Main(string[] args)
         {
-           
+            Reco(7, 0);
             int? t = 8;
             // int k = null;
 
@@ -25,5 +25,12 @@ namespace HomeWork
 
         }
          readonly string tes = "";
+        public static int Reco(int t,int sum)
+        {
+            Console.WriteLine(sum + Reco(t, sum));
+
+            return sum + Reco(t, sum);
+        
+        }
     }
 }
