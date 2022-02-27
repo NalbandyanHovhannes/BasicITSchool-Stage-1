@@ -18,11 +18,35 @@ namespace Struct
             //--    
             Console.WriteLine(point.x); //output: 0  
             Console.WriteLine(point.y); //output: 0  
+
+            Coordinate cor = new Coordinate(8, 9);
+            var x = cor + point;
+            cor.Calc();
         }
         struct Coordinate
         {
             public int x;
-            public int y;     
+            public int y;
+
+            public static Coordinate operator +(Coordinate point_left, Coordinate point_right)
+            {
+                return new Coordinate(point_left.x + point_right.x, point_left.y + point_right.y);
+            }
+            public int Calc()
+            {
+                return x + y;
+
+            }
+            public Coordinate(int gven, int vle)
+            {
+                x = gven;
+                y = vle;
+            }
+            public Coordinate(int test2)
+            {
+                x = test2;
+                y = 0;
+            }
         }
 
 
@@ -42,7 +66,7 @@ namespace Struct
         {
             public int x { get; set; }
             public int y { get; set; }
-            public  void SetOrigin()
+            public void SetOrigin()
             {
                 this.x = 0;
                 this.y = 0;
