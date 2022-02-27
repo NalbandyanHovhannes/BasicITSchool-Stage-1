@@ -6,16 +6,6 @@ namespace Classes
     {
         static void Main(string[] args)
         {
-           //Reference Types
-           //Memory-Heap Only
-
-           //Constructor
-           //Property
-           //Method
-           //Field
-           //Indexator
-           //Event
-           //Operators
         }
     }
 }

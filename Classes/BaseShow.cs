@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Classes
 {
-    public class BaseShow : BMW
+    public class BaseShow 
     {
         public double CalcTorque(double value, double horsepower)
         {
@@ -21,15 +21,17 @@ namespace Classes
             {
                 return torque;
             }
-
-
         }
         public void CheckCar()
         {
+        }
+        public struct Device
+        {
+            public string ItsCar()
+            {
 
-
-
-
+                return "oooo";
+            }        
         }
 
     }

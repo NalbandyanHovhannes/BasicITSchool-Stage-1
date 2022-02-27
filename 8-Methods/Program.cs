@@ -74,7 +74,10 @@ namespace _8_Methods
     {
         Console.WriteLine("I just got executed!");
     }
+        public Program()
+        {
 
+        }
     public static int Count(int t)
     {
         int c = 0;
