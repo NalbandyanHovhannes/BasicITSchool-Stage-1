@@ -7,7 +7,7 @@ namespace Enums
     {
         static void Main(string[] args)
         {
-            DaysEnums days = new DaysEnums();
+            WeekDays days = new WeekDays();
             
             Console.WriteLine(WeekDays.Friday);
             Console.WriteLine((int)WeekDays.Friday);

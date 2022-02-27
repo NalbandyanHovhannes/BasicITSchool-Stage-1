@@ -32,10 +32,10 @@ namespace Struct
             {
                 return new Coordinate(point_left.x + point_right.x, point_left.y + point_right.y);
             }
+
             public int Calc()
             {
                 return x + y;
-
             }
             public Coordinate(int gven, int vle)
             {
