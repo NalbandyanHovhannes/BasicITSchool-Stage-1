@@ -14,18 +14,15 @@
 
     public enum Student
     {
-            Alice=1,
-            Davit,
-            Levon,
-            Artur,
-            Toma,
-            Artush,
-            Areg,
-            Misak,
-            Syuzi,
-
-
-
-
+        Alice = 1,
+        Davit,
+        Levon,
+        Artur,
+        Toma,
+        Artush,
+        Areg,
+        Misak,
+        Syuzi,
     }
+
 }

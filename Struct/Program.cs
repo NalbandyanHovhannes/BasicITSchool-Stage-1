@@ -6,6 +6,10 @@ namespace Struct
     {
         static void Main(string[] args)
         {
+            StructCoordinate structCoordinate=new StructCoordinate();
+            structCoordinate.Adding(7);
+            StructCoordinate R;
+            
             Coordinate point;
             point.x = 10;
             point.y = 20;
@@ -42,11 +46,11 @@ namespace Struct
                 x = gven;
                 y = vle;
             }
-            public Coordinate(int test2)
-            {
-                x = test2;
-                y = 0;
-            }
+            //public Coordinate(int test2)
+            //{
+            //    x = test2;
+            //    y = 0;
+            //}
         }
 
 
