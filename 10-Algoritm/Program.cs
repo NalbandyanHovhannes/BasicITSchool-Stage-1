@@ -24,8 +24,7 @@ namespace Enums
             var esim = (int)ClassRoomr.Danger;
 
             ClassRoomr classRoomr = new ClassRoomr();
-             
-                
+                      
                 
                 }
 
