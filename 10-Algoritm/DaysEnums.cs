@@ -1,16 +1,27 @@
-﻿namespace Enums
+﻿
+public enum WeekDays
+{
+    Monday,
+    Tuesday,
+    Wednesday,
+    Thursday,
+    Friday = 9,
+    Saturday,
+    Sunday
+}
+
+
+
+
+
+
+
+
+
+namespace Enums
 
 {
-    public enum WeekDays
-    {
-        Monday,
-        Tuesday,
-        Wednesday,
-        Thursday,
-        Friday = 9,
-        Saturday,
-        Sunday
-    }
+   
 
     public enum Student
     {

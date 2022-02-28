@@ -9,7 +9,7 @@ namespace Struct
             StructCoordinate structCoordinate=new StructCoordinate();
             structCoordinate.Adding(7);
             StructCoordinate R;
-            
+            R.x = 9;          
             Coordinate point;
             point.x = 10;
             point.y = 20;
@@ -52,7 +52,6 @@ namespace Struct
             //    y = 0;
             //}
         }
-
 
         struct Coordinates
         {
