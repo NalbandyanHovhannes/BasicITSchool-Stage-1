@@ -17,19 +17,30 @@ namespace Classes
         //Event
         //Operators
 
-        public Example()
-        {
 
+        //Construc
+        public Example(int y)
+        {
+            t = y;
         }
+
+        //Property
         public int TestProperty { get; set; }
 
-        public void TestMethod()
-        { 
-        
-        }
-        int t;
 
-       
+        //field
+        int t;
+        public int a;
+
+        //field
+        public static int b;
+
+        //Method
+        public void TestMethod()
+        {
+            Console.WriteLine(a);
+            Console.WriteLine(b);
+        }     
 
 
     }
