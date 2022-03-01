@@ -15,8 +15,6 @@ namespace ConstructorProperties
         public int TestMethod(int testvalue)
         {
 
-
-
             return testvalue;
         }
         public TestClas()
@@ -35,6 +33,14 @@ namespace ConstructorProperties
     public /*static*/ class Fooo
 
     {
+        public Fooo()
+        {
+
+        }
+        public Fooo(int a)
+        {
+            this.a = a;
+        }
         public int tested { get { return FirtsProp; } set { FirtsProp = 9; } }
         public static int FirtsProp { get; set; }
 
@@ -50,7 +56,7 @@ namespace ConstructorProperties
             get { return prop1; }
         }
 
-        public static int a;
+        public  int a;
         public static void Test1()
         {
             Console.WriteLine("Test1");//console is a static class and methods
