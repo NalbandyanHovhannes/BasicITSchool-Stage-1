@@ -26,7 +26,10 @@ namespace Struct3
 
         }
     }
-    public struct TestStruct
+    //We cant declare static struck
+    //public static struct Test1
+    //{ }
+    public  struct TestStruct
     {
         public int a;
         public static int a_static;
