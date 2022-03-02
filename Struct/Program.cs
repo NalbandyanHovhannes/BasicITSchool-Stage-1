@@ -65,6 +65,8 @@ namespace Struct
             }
         }
 
+
+    }
         struct Coordinate3
         {
             public int x { get; set; }
@@ -75,7 +77,5 @@ namespace Struct
                 this.y = 0;
             }
         }
-
-    }
 }
 
