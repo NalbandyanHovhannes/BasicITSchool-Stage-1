@@ -64,7 +64,7 @@ namespace Constructor_Class
         {
             return "ok";
         }
-        //public TestStaticClass(int t)
+        //public static TestStaticClass(int t)
         //{
         //    this.o = t;
         //}
