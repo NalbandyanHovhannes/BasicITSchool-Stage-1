@@ -58,13 +58,17 @@ namespace Struct3
             r = a;
             return "Hello"+r;
         }
-        public TestStruct(int a_static = 8,int c = 7)
-        {
-            this.b = 8;
-            this.a = a_static;
-            myVar = b;
-            
-        }      
+        //public TestStruct(int a_static = 8,int c = 7)
+        //{
+        //    this.b = 8;
+        //    this.a = a_static;
+        //    myVar = b;
+
+        //}      
         //grel constructor
+        //public TestStruct()
+        //{
+
+        //}
     }
 }
