@@ -10,9 +10,7 @@ namespace Struct3
             testStruct.b = 7;
             testStruct.Method1();
             testStruct.Method3(7);
-            
-
-
+           // testStruct.MyProperty{ };
             TestStruct testStruct_1;
             testStruct_1.a = 1;
             //testStruct_1.b = 7;  its error
@@ -21,8 +19,6 @@ namespace Struct3
             //testStruct_1.Method1();error Please Declare object kam instance
             //testStruct_1.Method3();error Please Declare object kam instance
             //testStruct_1.Method4(); error Please Declare object kam instance
-
-
 
         }
     }
@@ -33,10 +29,17 @@ namespace Struct3
     {
         public int a;
         public static int a_static;
-        public int b { get; set; }
+        public int b { get; set; }//
+
+        private int myVar;
+
+        public int MyProperty
+        {
+            get { return myVar; }//accesor
+            set { myVar = value; }//mutator
+        }
 
         public static int c;
-
         public void Method1()
         {
             Console.WriteLine(a);
@@ -59,9 +62,9 @@ namespace Struct3
         {
             this.b = 8;
             this.a = a_static;
-            Method4(c);
-        }
-        
-
+            myVar = b;
+            
+        }      
+        //grel constructor
     }
 }
