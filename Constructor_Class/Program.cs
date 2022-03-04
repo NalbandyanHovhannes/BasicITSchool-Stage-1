@@ -7,23 +7,36 @@ namespace Constructor_Class
         static void Main(string[] args)
         {
             TestClass test1 = new TestClass();
-            TestClass test2 = new TestClass(8, 8);//use his constructor
-            TestClass test3 = new TestClass(8, true);
+            test1.t = 1;
+            test1.Method(true);
 
+            TestClass test2 = new TestClass(8, 8);//use his constructor
+            TestClass test3 = new TestClass(true, 8);
+            TestClass test4 = new TestClass(8,true);
+            //string uu= gbr.stringTest;
             //Declare static class
-            //TestStaticClass testStaticClass = new TestStaticClass();
-            TestStaticClass.o = 9;
+           // TestStaticClass testStaticClass = new TestStaticClass();
+             var y= TestStaticClass.o ;
+
+
             TestStaticClass.Method();
             //Console.WriteLine("Hello World!");
         }
     }
     public class TestClass
     {
-        public int t = 1;
-        private int b;
+        public int t ;
+        private int b;//private
         public int a1;
         public int a2;
         public string stringTest { get; set; }
+        public int MyProperty { get; set; }
+        //------------
+        private int TTT;
+        public int propo;
+        public int MyPropertys  {  get { return TTT; } set { TTT = value; }
+        }
+        //---------------------
         public string Method(bool isOK)
         {
 
@@ -33,7 +46,7 @@ namespace Constructor_Class
             }
             return "Pashlo na Dno";
         }
-        public TestClass()
+        public TestClass()//deafult constructor
         {
 
         }
@@ -41,6 +54,16 @@ namespace Constructor_Class
         {
             this.b = b;
             Method(isOK);
+        }
+        //public TestClass(int b, bool isOK)
+        //{
+        //    this.b = b;
+        //    Method(isOK);
+        //}
+        public TestClass(bool b, int isOK)
+        {
+            this.b = isOK;
+            Method(b);
         }
         public TestClass(int a1, int a3)
         {
@@ -59,15 +82,12 @@ namespace Constructor_Class
 
     public static class TestStaticClass
     {
-        public static int o;
+        public  static readonly   int o=9;
         public static string Method()
         {
             return "ok";
         }
-        //public static TestStaticClass(int t)
-        //{
-        //    this.o = t;
-        //}
+        
         //~TestStaticClass
         //    { }
     }

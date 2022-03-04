@@ -11,7 +11,6 @@ namespace Constructors_Structs
             //test.MethodStruct(9);
             StructTest test2 = new StructTest();
             test2.t = 9;
-
             StructTest test3 = new StructTest(7);
             //Console.WriteLine("Hello World!");
         }
@@ -22,17 +21,16 @@ namespace Constructors_Structs
         public int t;
         public string MethodStruct(int t)
         {
-
             return "all is good";
         }
         public StructTest(int a, int yuy)
         {
-            this.t = 7;
+            this.t = a;
             MethodStruct(yuy);
         }
-        public StructTest(int r)
+        public StructTest(int t)
         {
-            this.t = r;
+            this.t = t;
         }
         //public StructTest(int b)
         //{
@@ -46,6 +44,8 @@ namespace Constructors_Structs
 
     public readonly struct StaticStruct1
     {
+        public readonly int u;
+
         //why
     }
 }
