@@ -12,8 +12,8 @@ namespace _9_Recursion
             //Console.Write(NthFibonacciNumber(80));//2 nd wit recursion
             //Console.ReadKey();
 
-          
-            Console.WriteLine(Factorial(8000));
+            Fac(4);
+            Console.WriteLine(Factorial(6));
             Console.ReadKey();
 
 
@@ -52,12 +52,30 @@ namespace _9_Recursion
             int mult;
             if (i == 1)
                 return 1;
-
            
             mult= i * Factorial(i - 1);
             return mult;// mult=multiple
         
         }
+        public static int Fac(int i) //5
+        {
+            int t = 0;
+
+            if (t >= i)
+            {
+                Console.WriteLine(t);
+                return t;
+            }
+            else
+            {
+                t = t + Fac(t);
+                t++;
+                return t;
+            }
+
+
+        }
+
     }
 }
 

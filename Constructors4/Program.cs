@@ -42,11 +42,12 @@ namespace Constructors_Structs
         //}
     }
 
-    public readonly struct StaticStruct1
+    public  struct StaticStruct1
     {
-        public readonly int u;
-
-        //why
+        public static int u;
+        public void III(int r)
+        {
+        }        
     }
 }
 

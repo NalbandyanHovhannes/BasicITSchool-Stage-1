@@ -47,7 +47,7 @@ namespace _8_Methods
 
         }
     
-         public static int UUU()
+         public  static int UUU()
         {
 
             return 7;
@@ -64,7 +64,6 @@ namespace _8_Methods
 
         return a * b * c;
     }
-
     public static void MyMethods(string fname, int age)
     {
         Console.WriteLine(fname + " is " + age);

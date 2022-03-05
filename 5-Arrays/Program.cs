@@ -123,7 +123,14 @@ namespace _5_Arrays
         public class Arrayss
         {
 
-            int[] array1 = new int[5];
+            //int[] array1 = new int[5];
+
+
+            //Int array244] = new int[];
+            //int[5] array44[] = new int[5];
+            //int[] arr4ay1 = new int[5];
+            //int arr44ay1 = new int();
+
 
             // Declare and set array element values.
             int[] array2 = new int[5] { 1, 3, 5, 7, 9 };

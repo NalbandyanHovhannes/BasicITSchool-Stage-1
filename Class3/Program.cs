@@ -8,8 +8,8 @@ namespace Class3
         {
             //Test_Class_1 test_Class_2 ;
             //test_Class_2.a = 8; you must Declare object (instance)
-
-            Test_Class_1 test_Class_1=new  Test_Class_1();
+            //Test_Class_1 test_Class_2 = new Test_Class_1();
+            Test_Class_1 test_Class_1=new  Test_Class_1(7);
             test_Class_1.a = 8;
             //test_Class_1.a_static;we cant call to that field because that field is static
             test_Class_1.b = 9;
@@ -45,6 +45,10 @@ namespace Class3
             int r;
             r = a;
             return "Hello" + r;
+        }
+        public Test_Class_1(int t)
+        {
+            this.a = t;
         }
 
     }

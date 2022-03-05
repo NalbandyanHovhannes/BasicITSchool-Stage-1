@@ -33,10 +33,7 @@ namespace ConstructorProperties
     public /*static*/ class Fooo
 
     {
-        public Fooo()
-        {
-
-        }
+      
         public Fooo(int a)
         {
             this.a = a;
