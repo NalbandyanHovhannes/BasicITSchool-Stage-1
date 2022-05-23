@@ -34,32 +34,32 @@ namespace _4_Loops
 
             ////---------------------------------------------------------------------------
             ////Switch Case
-            //int day = 4;
+            int day = 4;
 
-            //switch (day)
-            //{
-            //    case 1:
-            //        Console.WriteLine("Monday");
-            //        break;
-            //    case 2:
-            //        Console.WriteLine("Tuesday");
-            //        break;
-            //    case 3:
-            //        Console.WriteLine("Wednesday");
-            //        break;
-            //    case 4:
-            //        Console.WriteLine("Thursday");
-            //        break;
-            //    case 5:
-            //        Console.WriteLine("Friday");
-            //        break;
-            //    case 6:
-            //        Console.WriteLine("Saturday");
-            //        break;
-            //    case 7:
-            //        Console.WriteLine("Sunday");
-            //        break;
-            //}
+            switch (day)
+            {
+                case 1:
+                    Console.WriteLine("Monday");
+                    break;
+                case 2:
+                    Console.WriteLine("Tuesday");
+                    break;
+                case 3:
+                    Console.WriteLine("Wednesday");
+                    break;
+                case 4:
+                    Console.WriteLine("Thursday");
+                    break;
+                case 5:
+                    Console.WriteLine("Friday");
+                    break;
+                case 6:
+                    Console.WriteLine("Saturday");
+                    break;
+                case 7:
+                    Console.WriteLine("Sunday");
+                    break;
+            }
             //// Outputs "Thursday" (day 4)
 
             ////---------------------------------------------------------------------------------
@@ -71,7 +71,7 @@ namespace _4_Loops
             //    case "4":
             //        Console.WriteLine("Today is Saturday.");
             //        break;
-                    
+
             //    case "8":
             //        Console.WriteLine("Today is Sunday.");
             //        break;
@@ -83,7 +83,7 @@ namespace _4_Loops
             ////continue
             ////-------------------------------------------------------------------
             ////DO WHile and While do
-             
+
 
             //int i = 0;
             //while (i < 5)

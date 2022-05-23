@@ -6,68 +6,68 @@ namespace _5_Arrays
     {
         static void Main(string[] args)
         {
-            //int t = 9999;
-            //string b = "88P8";
-            //int k = 1;
-            //int.TryParse(b,out  k);
-            //var tr = k;
-            ////Array Declare methods
-            ///
-            //string[] car;
-            //int[] carint;
-            //char[] charArray;
-            //long[] longArray;
+            int t = 9999;
+            string b = "88P8";
+            int k = 1;
+            int.TryParse(b, out k);
+            var tr = k;
+            //Array Declare methods
+            
+            string[] car;
+            int[] carint;
+            char[] charArray;
+            long[] longArray;
 
-            //string[] cars = { "Volvo", "BMW", "Ford", "Mazda","opel" };
-            //Console.WriteLine(cars[0]);
-            //Console.WriteLine(cars.Length);
-            ////int[] myNum = { 10, 20, 30, 40 };
-            //for (int i = 0; i < cars.Length; i++)
-            //{
-            //    Console.WriteLine(cars[i]);
-            //}
+            string[] cars = { "Volvo", "BMW", "Ford", "Mazda", "opel" };
+            Console.WriteLine(cars[0]);
+            Console.WriteLine(cars.Length);
+            //int[] myNum = { 10, 20, 30, 40 };
+            for (int i = 0; i < cars.Length; i++)
+            {
+                Console.WriteLine(cars[i]);
+            }
 
-            //foreach (string iten in cars)
-            //{
-            //    Console.WriteLine(iten);
-            //}
+            foreach (string iten in cars)
+            {
+                Console.WriteLine(iten);
+            }
 
             ////sort
-            //string[] carss = { "Volvo", "BMW", "Ford", "Mazda" };
-            //Array.Sort(carss);
+            string[] carss = { "Volvo", "BMW", "Ford", "Mazda" };
+            Array.Sort(carss);
 
-            //foreach (string i in carss)
-            //{
-            //    Console.WriteLine(i);
-            //}
+            foreach (string i in carss)
+            {
+                Console.WriteLine(i);
+            }
 
 
             //// Sort an int
-            //int[] myNumbers = { 5, 1, 8, 9 };
-            //Array.Sort(myNumbers);
-            //foreach (int i in myNumbers)
-            //{
-            //    Console.WriteLine(i);
-            //}
+            int[] myNumbers = { 5, 1, 8, 9 };
+            Array.Sort(myNumbers);
+            foreach (int i in myNumbers)
+            {
+                Console.WriteLine(i);
+            }
 
 
-            //int[] myNumberss = { 5, 1, 8, 9 };
-            ////  Console.WriteLine(myNumbers.Max());  // returns the largest value
-            //// Console.WriteLine(myNumbers.Min());  // returns the smallest value
-            //// Console.WriteLine(myNumbers.Sum());  // returns the sum of elements
+            int[] myNumberss = { 5, 1, 8, 9 };
+            //Console.WriteLine(myNumbers.Max());  // returns the largest value
+            //Console.WriteLine(myNumbers.Min());  // returns the smallest value
+            //Console.WriteLine(myNumbers.Sum());  // returns the sum of elements
 
-            //// Create an array of four elements, and add values later
-            //string[] carsssss = new string[8];
-            //  //for (int i = 0; i < carsssss.Length; i++)
-            //  //{
-            //  //    carsssss[i] = (i * i).ToString();
-            //  //}
+            //Create an array of four elements, and add values later
+            string[] carsssss = new string[8];
+            for (int i = 0; i < carsssss.Length; i++)
+            {
+                carsssss[i] = (i * i).ToString();
+            }
 
-            //  ////Create an array of four elements and add values right away
+            //Create an array of four elements and add values right away
 
             string[] carsss = new string[4] { "Volvo", "BMW", "Ford", "Mazda" };
-            //carsss[4] = "new";//its ok or not
-            //carsss[4] = "new5";
+            carsss[4] = "new";//its ok or not
+            carsss[4] = "new5";
 
             foreach (string item in carsss)
             {

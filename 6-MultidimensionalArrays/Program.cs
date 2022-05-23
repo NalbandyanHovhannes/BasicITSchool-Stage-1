@@ -70,8 +70,7 @@ namespace _6_MultidimensionalArrays
             jaggedArray[4] = new int[] { 1, 0, 2, 4, 6, 34, 54, 67, 87, 78 };
             //You can also initialize the array upon declaration like this:
             int[][] jaggedArray2 = new int[][]
-            {
-new int[] { 3, 5, 7, },
+            {new int[] { 3, 5, 7, },
 new int[] { 1, 0, 2, 4, 6 },
 new int[] { 1, 6 },
 new int[] { 1, 0, 2, 4, 6, 45, 67, 78 }

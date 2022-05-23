@@ -68,8 +68,8 @@ namespace _9_Recursion
             }
             else
             {
-                t = t + Fac(t);
-                t++;
+                t = i + Fac(i);
+                i--;
                 return t;
             }
 
