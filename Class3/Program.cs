@@ -46,9 +46,9 @@ namespace Class3
             r = a;
             return "Hello" + r;
         }
-        public Test_Class_1(int t)
+        public Test_Class_1(int a)
         {
-            this.a = t;
+            this.a = a;
         }
 
     }

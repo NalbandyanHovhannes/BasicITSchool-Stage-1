@@ -10,7 +10,7 @@ namespace _8_Methods
             int values;
             values = Sum(7, 9);
 
-            values = Sum(8, 9, 89);
+            //values = Sum(8, 9, 89);
 
 
             //A method is a block of code which only runs when it is called.
@@ -38,16 +38,16 @@ namespace _8_Methods
 
 
             //Default parameter setted
+            UUU();
 
-
-            static void MyMethod(string country = "Norway")
+             void MyMethod(string country = "Norway")
             {
                 Console.WriteLine(country);
             }
 
         }
     
-         public  static int UUU()
+         public static  int UUU()
         {
 
             return 7;
@@ -59,10 +59,10 @@ namespace _8_Methods
         return sum;
 
     }
-    public static int Sum(int a, int b, int c)
+    public static string Sum(int a, int b, int c)
     {
 
-        return a * b * c;
+        return (a * b * c).ToString();
     }
     public static void MyMethods(string fname, int age)
     {

@@ -19,6 +19,7 @@ namespace _5_Arrays
             long[] longArray;
 
             string[] cars = { "Volvo", "BMW", "Ford", "Mazda", "opel" };
+            
             Console.WriteLine(cars[0]);
             Console.WriteLine(cars.Length);
             //int[] myNum = { 10, 20, 30, 40 };
@@ -86,7 +87,7 @@ namespace _5_Arrays
             // Create an array of four elements, omitting the new keyword, and without specifying the size
             string[] carssssss = { "Volvo", "BMW", "Ford", "Mazda" };
 
-
+            
             // Declare an array
             string[] cats;
 
@@ -124,8 +125,6 @@ namespace _5_Arrays
         {
 
             //int[] array1 = new int[5];
-
-
             //Int array244] = new int[];
             //int[5] array44[] = new int[5];
             //int[] arr4ay1 = new int[5];

@@ -8,7 +8,10 @@ namespace Classes
 {
     interface IProperty
     {
-        public string Brand { get; set; }
+        public string Brand { get; set; }       
+
+        
+
         public int HorsePower { get; set; }
         public string Color { get; set; }
 

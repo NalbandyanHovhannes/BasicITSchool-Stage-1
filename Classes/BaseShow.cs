@@ -8,6 +8,7 @@ namespace Classes
 {
     public class BaseShow 
     {
+        int x = 7;
         public double CalcTorque(double value, double horsepower)
         {
             var torque = horsepower / value;
@@ -22,16 +23,30 @@ namespace Classes
                 return torque;
             }
         }
-        public void CheckCar()
+        public  void CheckCar()
         {
+            //const int t = 8;             
+            device.ItsCar();
         }
-        public struct Device
+        //TODO
+        Device device = new Device();//TODO
+        
+        
+        private struct Device
         {
+            public int x;
+            int y;
+           
             public string ItsCar()
             {
-
+                int x =8;
                 return "oooo";
-            }        
+            }
+            public Device(int a)
+            {
+                this.y = a; 
+                this.x = a;
+            }
         }
 
     }
