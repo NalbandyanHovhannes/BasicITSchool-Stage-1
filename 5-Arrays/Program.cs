@@ -7,6 +7,9 @@ namespace _5_Arrays
         static void Main(string[] args)
         {
             int t = 9999;
+
+
+
             string b = "88P8";
             int k = 1;
             int.TryParse(b, out k);
