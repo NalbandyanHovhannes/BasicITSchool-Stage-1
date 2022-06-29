@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Data;
 
 namespace _2_DataTypes
 {
@@ -6,28 +7,47 @@ namespace _2_DataTypes
     {
         static void Main(string[] args)
         {
-            //            char vvvv = 'v';
+            //  char v1 = 'c';
+            //  char v2 = 'v';
+            DateTime dateTime = DateTime.Now;
+            //Console.WriteLine(v1);
+            //Console.WriteLine(v2);
             //            char tttt = 't';
 
-            //            int sumChar = vvvv + tttt+tttt;
+            //   int sumChar = vvvv + tttt+tttt;
+
+            //int t, y, o;
+            //int a=8 ;
+            //int b = 3;
+            //int d = 0;
+            //int c = a + b;
+            //int zero;
+            //zero= b / d;
+
+            DateTime t = DateTime.Now;
+           // DateTime y =dateTime.Date= "29.06.2022 22:02:35".date;
+            Console.WriteLine(t); ;
+            //int age = 18;
+            //string firstName = "John ";
+            //string lastName = "Doe";
+            //string fullName = firstName + lastName + age;
+            //Console.WriteLine(fullName);
+
+            //   bool a = false;
+            //   char c = 'v';                 //16-bit single --Unicode character 2bit
+            //   char u = 'i';                 //
+            //   char add = (char)(c + u);
+
+            //   //Default is false   8-bit logical true/false value
+            //   a = true;
+            //   bool uu;
 
 
-
-            //            bool a = false;
-            //            char c = 'v';                 //16-bit single --Unicode character 2bit
-            //            char u = 'i';                 //
-            //            char add = (char)(c + u);
-
-            //            //Default is false   8-bit logical true/false value
-            //            a = true;
-            //            bool uu;
-
-
-            //            byte b = 255;//0-255   0.1  2
-            //            byte bb = 125;
-            //            int tt = b - bb; 
-            //            //8 bit 0-255
-            //            sbyte i = 7;                  //8-bit unsigned integer
+            //   byte b = 255;//0-255   0.1  2
+            //   byte bb = 125;
+            //   int tt = b - bb; 
+            //   //8 bit 0-255
+            //   sbyte i = 7;                  //8-bit unsigned integer
 
             //            int aa = 520;
             //            int bbb = 99;
@@ -149,10 +169,10 @@ namespace _2_DataTypes
 
 
             //Dynamic Type
-            dynamic MyDynamicVar = 100;
-            Console.WriteLine("Value: {0}, Type: {1}", MyDynamicVar, MyDynamicVar.GetType());
-            string str = "85241Asss";
-            string strValues = MyDynamicVar / str;
+            //dynamic MyDynamicVar = 100;
+            //Console.WriteLine("Value: {0}, Type: {1}", MyDynamicVar, MyDynamicVar.GetType());
+            //string str = "85241Asss";
+            ////string strValues = MyDynamicVar / str;
 
             ////Nullable Type 
             //int? kyy = null;

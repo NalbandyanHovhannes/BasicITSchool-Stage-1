@@ -6,10 +6,30 @@ namespace _1_Lesson
     {
         static void Main(string[] args)
         {
-         
-            Console.Read();
-            Console.Write("Input tt=");
-            Console.WriteLine("A+B=");
+
+            //Console.Write("Hello");
+            //Console.Write("Hello");
+            //Console.WriteLine("2022");
+            /*Console.Write
+             * 
+             * 
+             * 
+             * 
+             * 
+             * 
+             * 
+             * ("Salt");*/
+
+
+
+
+            Console.WriteLine("Input tt=");
+            Console.ReadLine();
+            Console.ReadKey();
+            Console.ReadLine();
+
+
+
 
         }
     }
