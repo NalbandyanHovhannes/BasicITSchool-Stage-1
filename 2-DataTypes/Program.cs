@@ -7,9 +7,46 @@ namespace _2_DataTypes
     {
         static void Main(string[] args)
         {
-            //  char v1 = 'c';
-            //  char v2 = 'v';
-            DateTime dateTime = DateTime.Now;
+
+
+            //double doub=25.555;
+            //Console.WriteLine(doub);
+            //float flo= 26.555455555555555555555555555f;
+            //Console.WriteLine(flo);
+            //decimal dec= 27.5555555555555555555555555554m;
+            //Console.WriteLine(dec);
+            //Console.WriteLine(double.MaxValue);
+            //Console.WriteLine(float.MaxValue);
+            //Console.WriteLine(decimal.MaxValue);
+
+
+            //decimal tt = (decimal)flo;
+            //decimal sum = Convert.ToDecimal((double )flo + doub);
+
+
+            //char v1 = 'c';
+            //char v2 = 'v';
+            //int  uu = v1 + v2;
+            //Console.WriteLine((char)uu);
+            //Console.WriteLine("sjjjjjjjjjjjjjjjjjjjj");
+
+            
+            double dbtest = 28.6d;
+            string sttest=dbtest.ToString();
+            Console.WriteLine(sttest);
+
+
+
+
+
+
+
+
+            //int b = 0b101;
+            //Console.WriteLine();
+            ////  char v1 = 'c';
+            ////  char v2 = 'v';
+            //DateTime dateTime = DateTime.Now;
             //Console.WriteLine(v1);
             //Console.WriteLine(v2);
             //            char tttt = 't';
@@ -24,9 +61,9 @@ namespace _2_DataTypes
             //int zero;
             //zero= b / d;
 
-            DateTime t = DateTime.Now;
-           // DateTime y =dateTime.Date= "29.06.2022 22:02:35".date;
-            Console.WriteLine(t); ;
+            // DateTime t = DateTime.Now;
+            //// DateTime y =dateTime.Date= "29.06.2022 22:02:35".date;
+            // Console.WriteLine(t); ;
             //int age = 18;
             //string firstName = "John ";
             //string lastName = "Doe";
@@ -64,8 +101,8 @@ namespace _2_DataTypes
             ////            Console.WriteLine("float: {0} double: {1} decimal: {2}", flt, dbl, dcm);
             ////        Result:
             ////            float: 0.3333333
-            ////double: 0.333333333333333
-            ////decimal: 0.3333333333333333333333333333
+            //double: 0.333333333333333
+            //decimal: 0.3333333333333333333333333333
 
 
 
@@ -157,12 +194,12 @@ namespace _2_DataTypes
 
 
 
-            // //Anonymus Types
-            // var student = new { Id = 1, FirstName = "James", LastName = "Bond" };
-            // Console.WriteLine(student.Id); //output: 1
-            //// student.Id = 9;
-            // Console.WriteLine(student.FirstName); //output: James
-            // Console.WriteLine(student.LastName); //output: Bond
+            //Anonymus Types
+            var student = new { Id = 1, FirstName = "James", LastName = "Bond" };
+            Console.WriteLine(student.Id); //output: 1
+            //student.Id = 9;
+            Console.WriteLine(student.FirstName); //output: James
+            Console.WriteLine(student.LastName); //output: Bond
 
             // //student.Id = 2;//Error: cannot chage value read only
             // //student.FirstName = "Steve";//Error: cannot chage value

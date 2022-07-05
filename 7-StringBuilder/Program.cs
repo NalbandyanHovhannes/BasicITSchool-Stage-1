@@ -7,6 +7,10 @@ namespace _7_StringBuilder
     {
         static void Main(string[] args)
         {
+
+
+
+
             //1.StringBulder
             // StringBuilder sb = new StringBuilder();
 

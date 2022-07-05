@@ -17,7 +17,7 @@ namespace _4_Loops
             //{
             //    max = a;
             //}
-            //else
+            //elsedxe
             //{
             //    max = b;
             //}
@@ -186,10 +186,6 @@ namespace _4_Loops
                     Console.WriteLine(result);
                 }
             }
-
-
-
-
         }
     }
     
