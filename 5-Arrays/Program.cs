@@ -6,14 +6,7 @@ namespace _5_Arrays
     {
         static void Main(string[] args)
         {
-            int t = 9999;
-
-
-
-            string b = "88P8";
-            int k = 1;
-            int.TryParse(b, out k);
-            var tr = k;
+           
             //Array Declare methods
             
             string[] car;
@@ -56,6 +49,7 @@ namespace _5_Arrays
 
 
             int[] myNumberss = { 5, 1, 8, 9 };
+
             //Console.WriteLine(myNumbers.Max());  // returns the largest value
             //Console.WriteLine(myNumbers.Min());  // returns the smallest value
             //Console.WriteLine(myNumbers.Sum());  // returns the sum of elements

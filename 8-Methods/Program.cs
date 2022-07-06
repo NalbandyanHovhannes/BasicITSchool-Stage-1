@@ -21,77 +21,70 @@ namespace _8_Methods
             //or sealed, the return value, the name of the method, and any method parameters.
             //These parts together are the signature of the method.
 
-
-
-
-
             MyMethod();
-
             MyMethods("Liam", 5);
             MyMethods("Jenny", 8);
             MyMethods("Anja", 31);
-
 
             // Liam is 5
             // Jenny is 8
             // Anja is 31
 
-
             //Default parameter setted
             UUU();
 
-             void MyMethod(string country = "Norway")
+            void MyMethod(string country = "Norway")
             {
                 Console.WriteLine(country);
             }
 
         }
-    
-         public static  int UUU()
+
+        public static int UUU()
         {
 
             return 7;
         }
 
-    public static int Sum(int a, int b)
-    {
-        int sum = a + b;
-        return sum;
+        public static int Sum(int a, int b)
+        {
+            int sum = a + b;
+            return sum;
 
-    }
-    public static string Sum(int a, int b, int c)
-    {
+        }
+        public static string Sum(int a, int b, int c)
+        {
 
-        return (a * b * c).ToString();
-    }
-    public static void MyMethods(string fname, int age)
-    {
-        Console.WriteLine(fname + " is " + age);
-    }
+            return (a * b * c).ToString();
+        }
+        public static void MyMethods(string fname, int age)
+        {
+            Console.WriteLine(fname + " is " + age);
+        }
 
-    static void MyMethods(int t, string tt)
-    {
-        Console.WriteLine("I just got executed!");
-    }
+        static void MyMethods(int t, string tt)
+        {
+            Console.WriteLine("I just got executed!");
+        }
         public Program()
         {
 
         }
-    public static int Count(int t)
-    {
-        int c = 0;
-        for (int i = 0; i < t; i++)
+        public static int Count(int t)
         {
-            int mod = i % 2;
-            if (mod == 0)
+            int c = 0;
+            for (int i = 0; i < t; i++)
             {
-                c++;
+                int mod = i % 2;
+                if (mod == 0)
+                {
+                    c++;
+                }
             }
+
+            return t;
+
         }
-
-        return t;
-
-    }
 
         //Method overloading system
 
@@ -119,8 +112,7 @@ namespace _8_Methods
             return x + y;
         }
         static string PlusMethod(string x, int y)
-        { return (x + y).ToString();}
-
+        { return (x + y).ToString(); }
         static double PlusMethod(double x, double y)
         {
             return x + y;

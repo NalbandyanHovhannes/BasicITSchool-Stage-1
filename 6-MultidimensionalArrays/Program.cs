@@ -8,7 +8,6 @@ namespace _6_MultidimensionalArrays
         {
             int[,] a = new int[3, 4] {
              {0, 1, 2, 3} ,   /*  initializers for row indexed by 0 */
-
              {4, 5, 6, 7} ,   /*  initializers for row indexed by 1 */
              {8, 9, 10, 11}   /*  initializers for row indexed by 2 */
                                         };
@@ -23,7 +22,6 @@ namespace _6_MultidimensionalArrays
             Console.WriteLine(arr4d1[0, 0, 0, 1]); // returns 2
             Console.WriteLine(arr4d1[0, 0, 1, 0]); // returns 3
             Console.WriteLine(arr4d1[0, 0, 1, 1]); // returns 4
-
 
             // Jagged Array
             int[][] jArray1 = new int[2][]; // can include two single-dimensional arrays 
@@ -49,9 +47,7 @@ namespace _6_MultidimensionalArrays
                             };
 
             Console.WriteLine(intJaggedArray[0][0][0]); // 1
-
             Console.WriteLine(intJaggedArray[0][1][1]); // 5
-
             Console.WriteLine(intJaggedArray[1][0][2]); // 9
 
 
@@ -71,18 +67,18 @@ namespace _6_MultidimensionalArrays
             //You can also initialize the array upon declaration like this:
             int[][] jaggedArray2 = new int[][]
             {new int[] { 3, 5, 7, },
-new int[] { 1, 0, 2, 4, 6 },
-new int[] { 1, 6 },
-new int[] { 1, 0, 2, 4, 6, 45, 67, 78 }
-            };
+                        new int[] { 1, 0, 2, 4, 6 },
+                        new int[] { 1, 6 },
+                        new int[] { 1, 0, 2, 4, 6, 45, 67, 78 }
+                                    };
             //You can use the following shorthand form:
             int[][] jaggedArray3 =
             {
-new int[] { 3, 5, 7, },
-new int[] { 1, 0, 2, 4, 6 },
-new int[] {1, 2, 3, 4, 5, 6, 7, 8},
-new int[] {4, 5, 6, 7, 8}
-};
+                        new int[] { 3, 5, 7, },
+                        new int[] { 1, 0, 2, 4, 6 },
+                        new int[] {1, 2, 3, 4, 5, 6, 7, 8},
+                        new int[] {4, 5, 6, 7, 8}
+                                                    };
         }
     }
 }
