@@ -4,7 +4,7 @@ namespace _5_Arrays
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             string[] test = new string[4];
             test[0] = "aa";
@@ -28,6 +28,7 @@ namespace _5_Arrays
 
             var t = Console.ReadLine();
             int ent = int.Parse(t);
+            Console.WriteLine(ent);
             //int[] array1 = new int[ent];
 
             int a = 4;
@@ -40,7 +41,7 @@ namespace _5_Arrays
             }
             else { max = b; }
 
-            max = a > b ? max = a : max = b;
+            // max = a > b ? max = a : max = b;
             Console.WriteLine(max);
             //Array Declare methods
             string[] cars = { "Volvo", "BMW", "Ford", "Mazda", "opel" };
@@ -78,7 +79,7 @@ namespace _5_Arrays
 
 
             int[] myNumberss = { 5, 1, 8, 9 };
-
+            Console.WriteLine(myNumberss);
             //Console.WriteLine(myNumbers.Max());  // returns the largest value
             //Console.WriteLine(myNumbers.Min());  // returns the smallest value
             //Console.WriteLine(myNumbers.Sum());  // returns the sum of elements
@@ -112,33 +113,33 @@ namespace _5_Arrays
 
             // Create an array of four elements, omitting the new keyword, and without specifying the size
             string[] carssssss = { "Volvo", "BMW", "Ford", "Mazda" };
-
+            Console.WriteLine(carssssss);
 
             // Declare an array
             string[] cats;
 
             // Add values, using new
             cats = new string[] { "Volvo", "BMW", "Ford" };
-
+            Console.WriteLine(cats);
             // Add values without using new (this will cause an error)
             //cats = { "Volvo", "BMW", "Ford"};
 
             int[,,] arr3d1 = new int[1, 2, 2]{
                 { { 1, 0}, { 3, 4} }
             };
-
+            Console.WriteLine(arr3d1);
             int[,,] arr3d2 = new int[2, 2, 2]{
                 { {1, 2}, {3, 4} },
                 { {5, 6}, {7, 8} }
             };
-
+            Console.WriteLine(arr3d2);
             int[,,] arr3d3 = new int[2, 2, 3]
 
             {
                 { { 1, 2, 3}, {4, 5, 6} },
                 { { 7, 8, 9}, {10, 11, 12} }
             };
-
+            Console.WriteLine(arr3d3);
             Console.WriteLine(arr3d2[0, 0, 0]); // returns 1 
             Console.WriteLine(arr3d2[0, 0, 1]); // returns 2 
             Console.WriteLine(arr3d2[0, 1, 0]); // returns 3 
@@ -151,38 +152,38 @@ namespace _5_Arrays
         }
         public class Arrayss
         {
-            readonly int[] array1 = new int[5];
+            //readonly int[] array1 = new int[5];
 
 
             // Declare and set array element values.
-            int[] array2 = new int[5] { 1, 3, 5, 7, 9 };
+            //readonly int[] array2 = new int[5] { 1, 3, 5, 7, 9 };
 
             // Alternative syntax.
-            private int[] array3 = { 1, 2, 3, 4, 5, 6 };
+            // int[] array3 = { 1, 2, 3, 4, 5, 6 };
 
             // Declare a two dimensional array.
-            int[,] multiDimensionalArray1 = new int[2, 3];
+            //readonly int[,] multiDimensionalArray1 = new int[2, 3];
 
             // Declare and set array element values.
-            int[,] multiDimensionalArray2 = { { 1, 2, 3 },
-                                              { 4, 5, 6 } };
+            //readonly int[,] multiDimensionalArray2 = { { 1, 2, 3 },
+                                            //  { 4, 5, 6 } };
 
             // Declare a jagged array.
-            int[][] jaggedArray = new int[6][];
+            ///int[][] jaggedArray = new int[6][];
 
             // Set the values of the first array in the jagged array structure.
             // jaggedArray[0] = new int[4] { 1, 2, 3, 4 };
 
 
 
-            int[][] jagArray = { new int[] { 10, 20, 30 }, new int[] { 11, 22 } };
+            //int[][] jagArray = { new int[] { 10, 20, 30 }, new int[] { 11, 22 } };
 
-            int[][] jagged_arr ={
-                                   new int[] {1, 2, 3, 4},
-                                   new int[] {11, 34, 67},
-                                   new int[] {89, 23},
-                                   new int[] {0, 45, 78, 53, 99}
-};
+            //int[][] jagged_arr ={
+            //                       new int[] {1, 2, 3, 4},
+            //                       new int[] {11, 34, 67},
+            //                       new int[] {89, 23},
+            //                       new int[] {0, 45, 78, 53, 99}
+            //                };
 
 
 

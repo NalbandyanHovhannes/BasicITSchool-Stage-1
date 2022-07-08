@@ -5,7 +5,7 @@ namespace Enums
 {
     public class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             //WeekDays days = new WeekDays();
             //Console.WriteLine(WeekDays.Friday);

@@ -4,9 +4,8 @@ namespace Struct_2
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-
             // In C#, struct is the value type data type that represents data structures.
             // It can contain a parameterized constructor, static constructor, constants, ]
             // fields, methods, properties, indexers, operators, events, and nested types.
@@ -25,8 +24,8 @@ namespace Struct_2
             c1.Brand = "Bugatti";
             c1.Model = "Bugatti Veyron EB 16.4";
             c1.Color = "Gray";
-            string test=c1.ttt();
-            Console.WriteLine(test);
+            //string test=c1.();
+            //Console.WriteLine(test);
 
             // Displaying the values
             Console.WriteLine("Name of brand: " + c1.Brand +
