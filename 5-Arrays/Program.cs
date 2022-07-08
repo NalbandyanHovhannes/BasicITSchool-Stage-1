@@ -6,16 +6,57 @@ namespace _5_Arrays
     {
         static void Main(string[] args)
         {
-           
+            Array arr;
+            arr = new Array();
+
+            string[] test = new string[4];
+            test[0] = "aa";
+            test[1] = "bb";
+            test[2] = "cc";
+            test[3] = "dd";
+
+            foreach (var item in test)
+            {
+                if (item == "cc")
+                {
+                    Console.WriteLine(Array.IndexOf(test, item));
+
+                }
+            }
+
+
+
+
+
+
+
+
+            var t = Console.ReadLine();
+            int ent = int.Parse(t);
+            int[] array1 = new int[ent];
+
+            int a = 4;
+            int b = 7;
+            int max;
+
+            if (a > b)
+            {
+                max = a;
+            }
+            else { max = b; }
+
+            max = a > b ? max = a : max = b;
+
             //Array Declare methods
-            
+
+
             string[] car;
             int[] carint;
             char[] charArray;
             long[] longArray;
 
             string[] cars = { "Volvo", "BMW", "Ford", "Mazda", "opel" };
-            
+
             Console.WriteLine(cars[0]);
             Console.WriteLine(cars.Length);
             //int[] myNum = { 10, 20, 30, 40 };
@@ -84,7 +125,7 @@ namespace _5_Arrays
             // Create an array of four elements, omitting the new keyword, and without specifying the size
             string[] carssssss = { "Volvo", "BMW", "Ford", "Mazda" };
 
-            
+
             // Declare an array
             string[] cats;
 
@@ -95,7 +136,7 @@ namespace _5_Arrays
             //cats = { "Volvo", "BMW", "Ford"};
 
             int[,,] arr3d1 = new int[1, 2, 2]{
-                { { 1, 2}, { 3, 4} }
+                { { 1, 0}, { 3, 4} }
             };
 
             int[,,] arr3d2 = new int[2, 2, 2]{
@@ -103,7 +144,9 @@ namespace _5_Arrays
                 { {5, 6}, {7, 8} }
             };
 
-            int[,,] arr3d3 = new int[2, 2, 3]{
+            int[,,] arr3d3 = new int[2, 2, 3]
+
+            {
                 { { 1, 2, 3}, {4, 5, 6} },
                 { { 7, 8, 9}, {10, 11, 12} }
             };
@@ -120,12 +163,7 @@ namespace _5_Arrays
         }
         public class Arrayss
         {
-
-            //int[] array1 = new int[5];
-            //Int array244] = new int[];
-            //int[5] array44[] = new int[5];
-            //int[] arr4ay1 = new int[5];
-            //int arr44ay1 = new int();
+            int[] array1 = new int[5];
 
 
             // Declare and set array element values.

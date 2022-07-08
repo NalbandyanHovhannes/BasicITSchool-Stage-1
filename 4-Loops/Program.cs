@@ -74,20 +74,20 @@ namespace _4_Loops
             ////---------------------------------------------------------------------------------
             ////Switch case with break operator
 
-            //string today = "4";
-            //switch (today)
-            //{
-            //    case "4":
-            //        Console.WriteLine("Today is Saturday.");
-            //        break;
+            string today = "4";
+            switch (today)
+            {
+                case "4":
+                    Console.WriteLine("Davit");
+                    break;
+                case "8":
+                    Console.WriteLine("Aram"); 
+                    break;
 
-            //    case "8":
-            //        Console.WriteLine("Today is Sunday.");
-            //        break;
-            //    default:
-            //        Console.WriteLine("Looking forward to the Weekend.");
-            //        break;
-            //}
+                default:
+                    Console.WriteLine("Missing number");
+                    break;
+            }
             //// Outputs "Looking forward to the Weekend."
             ////continue
             ////-------------------------------------------------------------------
