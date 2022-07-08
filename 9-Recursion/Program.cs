@@ -12,7 +12,7 @@ namespace _9_Recursion
             //Console.Write(NthFibonacciNumber(80));//2 nd wit recursion
             //Console.ReadKey();
 
-            Fac(4);
+            Fac(6);
             Console.WriteLine(Factorial(6));
             Console.ReadKey();
 
