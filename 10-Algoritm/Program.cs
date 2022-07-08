@@ -18,28 +18,17 @@ namespace Enums
             //Console.WriteLine((int)BasicLessonEnum.Exeptions);
             //Console.WriteLine(BasicLessonEnum.Classes);
             //Console.WriteLine((int)BasicLessonEnum.Classes);
-
-
-            var trr=ClassRoomr.Danger;
-            var esim = (int)ClassRoomr.Danger;
-
-            ClassRoomr classRoomr = new ClassRoomr();
-                      
-                
-                }
-
-
+            //var trr=ClassRoomr.Danger;
+            //var esim = (int)ClassRoomr.Danger;
+            //ClassRoomr classRoomr = new ClassRoomr();
+        }
     }
-     enum ClassRoomr
+    enum ClassRoomr
     {
-        VipClass=6,
-        Standart=1,
-        PitBoss=3,
-        Danger=1,
-
-
-
-
+        VipClass = 6,
+        Standart = 1,
+        PitBoss = 3,
+        Danger = 2,
     }
 }
 

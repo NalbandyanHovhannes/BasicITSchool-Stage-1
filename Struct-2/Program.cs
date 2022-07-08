@@ -11,8 +11,6 @@ namespace Struct_2
             // It can contain a parameterized constructor, static constructor, constants, ]
             // fields, methods, properties, indexers, operators, events, and nested types.
 
-            string str;
-            string str1;
             //string str2=str+str1;
 
 
@@ -20,8 +18,8 @@ namespace Struct_2
             // no need to create an 
             // instance using 'new' keyword
 
-             Car t1=new Car();
-            Car c1;
+            // Car t1=new Car();
+             Car c1;
 
             // c1's data
             c1.Brand = "Bugatti";
@@ -43,7 +41,7 @@ namespace Struct_2
         public string Color;
 
 
-        public string ttt()
+        public string Adding()
         { 
             return Brand+Model;
         }

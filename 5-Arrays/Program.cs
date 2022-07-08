@@ -6,9 +6,6 @@ namespace _5_Arrays
     {
         static void Main(string[] args)
         {
-            Array arr;
-           
-
             string[] test = new string[4];
             test[0] = "aa";
             test[1] = "bb";
@@ -31,7 +28,7 @@ namespace _5_Arrays
 
             var t = Console.ReadLine();
             int ent = int.Parse(t);
-            int[] array1 = new int[ent];
+            //int[] array1 = new int[ent];
 
             int a = 4;
             int b = 7;
@@ -44,15 +41,8 @@ namespace _5_Arrays
             else { max = b; }
 
             max = a > b ? max = a : max = b;
-
+            Console.WriteLine(max);
             //Array Declare methods
-
-
-            string[] car;
-            int[] carint;
-            char[] charArray;
-            long[] longArray;
-
             string[] cars = { "Volvo", "BMW", "Ford", "Mazda", "opel" };
 
             Console.WriteLine(cars[0]);
@@ -161,14 +151,14 @@ namespace _5_Arrays
         }
         public class Arrayss
         {
-            int[] array1 = new int[5];
+            readonly int[] array1 = new int[5];
 
 
             // Declare and set array element values.
             int[] array2 = new int[5] { 1, 3, 5, 7, 9 };
 
             // Alternative syntax.
-            int[] array3 = { 1, 2, 3, 4, 5, 6 };
+            private int[] array3 = { 1, 2, 3, 4, 5, 6 };
 
             // Declare a two dimensional array.
             int[,] multiDimensionalArray1 = new int[2, 3];
