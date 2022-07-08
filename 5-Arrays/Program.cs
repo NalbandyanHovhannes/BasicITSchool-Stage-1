@@ -7,13 +7,11 @@ namespace _5_Arrays
         static void Main(string[] args)
         {
             Array arr;
-            arr = new Array();
+           
 
             string[] test = new string[4];
             test[0] = "aa";
             test[1] = "bb";
-            test[2] = "cc";
-            test[3] = "dd";
 
             foreach (var item in test)
             {
