@@ -43,7 +43,6 @@ namespace _8_Methods
         {
             Console.WriteLine(fname + " is " + age);
         }
-
         static void MyMethods(int t, string tt)
         {
             Console.WriteLine("I just got executed!");
@@ -72,19 +71,16 @@ namespace _8_Methods
         {
             return x + y;
         }
-
         static double PlusMethodDouble(double x, double y)
         {
             return x + y;
         }
-
         static int PlusMethod(int x, int y)
         {
             return x + y;
         }
         static string PlusMethod(string x)
         { return (x).ToString(); }
-
         static double PlusMethod(double x, double y)
         {
             return x + y;

@@ -9,7 +9,7 @@ namespace Struct_2
             // In C#, struct is the value type data type that represents data structures.
             // It can contain a parameterized constructor, static constructor, constants, ]
             // fields, methods, properties, indexers, operators, events, and nested types.
-
+            //093250353
             //string str2=str+str1;
 
 
@@ -18,7 +18,7 @@ namespace Struct_2
             // instance using 'new' keyword
 
             // Car t1=new Car();
-             Car c1;
+            Car c1;
 
             // c1's data
             c1.Brand = "Bugatti";
