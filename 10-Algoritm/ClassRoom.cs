@@ -9,6 +9,13 @@
             PitBoss = 3,
             Danger = 1,
         }
+        public enum ClassRoomrr
+        {
+            VipClass,
+            Standart,
+            PitBoss ,
+            Danger ,
+        }
     }
 
 
