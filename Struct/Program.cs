@@ -1,4 +1,5 @@
 ﻿using System;
+using static Struct.t2;
 
 namespace Struct
 {
@@ -6,6 +7,14 @@ namespace Struct
     {
         static void Main(string[] args)
         {
+
+            t2 t3 = new t2();
+           
+            Car car=new Car();
+            car.Model = "";
+            //car.
+
+
             StructCoordinate structCoordinate=new StructCoordinate();
             structCoordinate.Adding(7);
             StructCoordinate R;
@@ -27,6 +36,14 @@ namespace Struct
             var x = cor + point;
             cor.Calc();
         }
+
+       
+
+
+
+
+
+
         struct Coordinate
         {
             public int x;
