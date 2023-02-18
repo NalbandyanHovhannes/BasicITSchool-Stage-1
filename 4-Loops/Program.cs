@@ -8,6 +8,21 @@ namespace _4_Loops
     {
         static void Main(string[] args)
         {
+
+
+            for (int i = 0; i < 1000; i++)
+            { 
+                if (true)
+                {
+
+                }
+                Console.WriteLine(i);
+            }
+
+            if (true)
+            {
+
+            }
             ////If Else Loop
             //int a = 8;
             //int b = 12;

@@ -6,21 +6,46 @@ namespace Class3
     {
         static void Main(string[] args)
         {
+            Console.WriteLine(StaticClass.MyProperty);
+
+
+            StaticClass.MyProperty = 8;
+
+            Console.WriteLine(StaticClass.MyProperty);
+
+
+
+
+
+
+
+
+
+
+
+
+            //StaticClass.Method();
+            //StaticClass.Prop1=9;
+            //StaticClass.a=9;
+            //StaticClass.b=8;
+
+
+
             //Test_Class_1 test_Class_2 ;
             //test_Class_2.a = 8; you must Declare object (instance)
             //Test_Class_1 test_Class_2 = new Test_Class_1();
-            Test_Class_1 instance101 = new Test_Class_1();
-            Test_Class_1.a_static = 8;
-            instance101.Method1();
-            Test_Class_1.Method2();
-            //test_Class_1.a_s
-            //tatic;we cant call to that field because that field is static
-            instance101.b = 9;
-            instance101.Method1();
-            //test_Class_1.Method2();we cant call to that method because that method is static
-            instance101.Method3(8);
-            instance101.Method4(88);
-            // StaticClass.Method();
+            //Test_Class_1 instance101 = new Test_Class_1();
+            //Test_Class_1.a_static = 8;
+            //instance101.Method1();
+            //Test_Class_1.Method2();
+            ////test_Class_1.a_s
+            ////tatic;we cant call to that field because that field is static
+            //instance101.b = 9;
+            //instance101.Method1();
+            ////test_Class_1.Method2();we cant call to that method because that method is static
+            //instance101.Method3(8);
+            //instance101.Method4(88);
+            //// StaticClass.Method();
 
         }
     }
@@ -37,6 +62,7 @@ namespace Class3
         {
             Console.WriteLine(a_static);
         }
+
         public int Method3(int x)
         {
             return x * x;
@@ -60,9 +86,5 @@ namespace Class3
 
         }
 
-        public Test_Class_1(int uy, int u)
-        {
-            this.a = uy;
-        }
     }
 }

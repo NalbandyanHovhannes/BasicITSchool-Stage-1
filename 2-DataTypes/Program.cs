@@ -30,10 +30,10 @@ namespace _2_DataTypes
             //Console.WriteLine((char)uu);
             //Console.WriteLine("sjjjjjjjjjjjjjjjjjjjj");
 
-            
-            double dbtest = 28.6d;
-            string sttest=dbtest.ToString();
-            Console.WriteLine(sttest);
+
+            //double dbtest = 28.6d;
+            //string sttest = dbtest.ToString();
+            //Console.WriteLine(sttest);
 
 
 
@@ -190,16 +190,29 @@ namespace _2_DataTypes
             //int numm;
             //object ooo = null;
             //num = int.Parse(ooo);
+            //int u = 8988;
 
+            //dynamic dyn = u;
+            //string s = "888";
+            ////dyn = s;
 
+            //string str =dyn;
 
+            //var a = 8;
+            //a = "";
+            //string str =dyn;
 
-            //Anonymus Types
-            var student = new { Id = 1, FirstName = "James", LastName = "Bond" };
-            Console.WriteLine(student.Id); //output: 1
-            //student.Id = 9;
-            Console.WriteLine(student.FirstName); //output: James
-            Console.WriteLine(student.LastName); //output: Bond
+            //Anonymus Types 
+
+            var student = new[]  { new { Id = 1, FirstName = "James", LastName = "Bond" },
+                                new { Id = 1, FirstName = "James", LastName = "Bond" } };
+        //var student = new {{ Id = 1, FirstName = "James", LastName = "Bond" },{ Id = 1, FirstName = "James", LastName = "Bond" } };
+        //    Console.WriteLine(student.Id); //output: 1
+        //    Console.WriteLine(student.FirstName); //output: 1
+        //    Console.WriteLine(student.LastName); //output: 1
+        //    //student.Id = 9;
+        //    Console.WriteLine(student.FirstName); //output: James
+        //    Console.WriteLine(student.LastName); //output: Bond
 
             // //student.Id = 2;//Error: cannot chage value read only
             // //student.FirstName = "Steve";//Error: cannot chage value

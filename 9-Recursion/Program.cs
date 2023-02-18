@@ -6,11 +6,11 @@ namespace _9_Recursion
     {
         static void Main(string[] args)
         {
-            //var fbon = Fibonachi(15);// 1rst method fibonachi without recursion
-           // Console.WriteLine(fbon);
-            //Console.Write(NthFibonacciNumber(3));//2 nd with recursion
-            //Console.ReadKey();
-
+            /*var fbon = Fibonachi(15);*/// 1rst method fibonachi without recursion
+                                     // Console.WriteLine(fbon);
+                                     //Console.Write(NthFibonacciNumber(3));//2 nd with recursion
+                                     //Console.ReadKey();
+            Console.WriteLine(Factorial(6));
             //--------------------------------
             //var factor=Fac(6);
             Console.WriteLine(Factorial(60000));
