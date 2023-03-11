@@ -7,7 +7,11 @@ namespace _2_DataTypes
     {
         static void Main(string[] args)
         {
-
+            int t;
+            Console.WriteLine();
+            int? a;
+            string s;
+            string? s2;
 
             //double doub=25.555;
             //Console.WriteLine(doub);
@@ -206,26 +210,36 @@ namespace _2_DataTypes
 
             var student = new[]  { new { Id = 1, FirstName = "James", LastName = "Bond" },
                                 new { Id = 1, FirstName = "James", LastName = "Bond" } };
-        //var student = new {{ Id = 1, FirstName = "James", LastName = "Bond" },{ Id = 1, FirstName = "James", LastName = "Bond" } };
-        //    Console.WriteLine(student.Id); //output: 1
-        //    Console.WriteLine(student.FirstName); //output: 1
-        //    Console.WriteLine(student.LastName); //output: 1
-        //    //student.Id = 9;
-        //    Console.WriteLine(student.FirstName); //output: James
-        //    Console.WriteLine(student.LastName); //output: Bond
+            //var student = new {{ Id = 1, FirstName = "James", LastName = "Bond" },{ Id = 1, FirstName = "James", LastName = "Bond" } };
+            //    Console.WriteLine(student.Id); //output: 1
+            //    Console.WriteLine(student.FirstName); //output: 1
+            //    Console.WriteLine(student.LastName); //output: 1
+            //    //student.Id = 9;
+            //    Console.WriteLine(student.FirstName); //output: James
+            //    Console.WriteLine(student.LastName); //output: Bond
 
             // //student.Id = 2;//Error: cannot chage value read only
             // //student.FirstName = "Steve";//Error: cannot chage value
 
 
-            //Dynamic Type
-            //dynamic MyDynamicVar = 100;
-            //Console.WriteLine("Value: {0}, Type: {1}", MyDynamicVar, MyDynamicVar.GetType());
-            //string str = "85241Asss";
-            ////string strValues = MyDynamicVar / str;
+           // Dynamic Type
+            dynamic MyDynamicVar = 100;
+            Console.WriteLine("Value: {0}, Type: {1}", MyDynamicVar, MyDynamicVar.GetType());
+            string str = "85241Asss";
+            Console.WriteLine("-----------");
+            string strValues = MyDynamicVar + str;
+            Console.WriteLine(strValues);
+            Console.WriteLine("-----------");
+
+            int strValues2 = MyDynamicVar + str;
+            Console.WriteLine(strValues2);
+            Console.WriteLine("-----------");
+            string strValues3 =  str+ MyDynamicVar;
+            Console.WriteLine(strValues3);
+
 
             ////Nullable Type 
-            //int? kyy = null;
+            int? kyy = null;
             //double? kt = null;
 
             ////Implicit Casting automate

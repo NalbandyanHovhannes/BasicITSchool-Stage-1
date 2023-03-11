@@ -16,7 +16,11 @@ namespace Classes
             set { myVar = 10; }
         }
         public int rrr { get; private set; }
-
+        public BMW(int t)
+        {
+            myVar= t;   
+        }
+        public BMW() { }
 
     }
 }

@@ -1,28 +1,18 @@
 ﻿
-public enum WeekDays
+public enum WeekDays:byte
 {
     Monday,
     Tuesday,
     Wednesday,
     Thursday,
     Friday = 9,
-    Saturday,
-    Sunday
+    Saturday=9
 }
-
-
-
-
-
-
-
 
 
 namespace Enums
 
 {
-   
-
     public enum Student
     {
         Alice = 1,

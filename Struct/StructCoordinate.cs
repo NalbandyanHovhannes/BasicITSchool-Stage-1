@@ -8,6 +8,7 @@ namespace Struct
 {
     struct StructCoordinate
     {
+      
        public double x;
        public double y;
        public double z;
